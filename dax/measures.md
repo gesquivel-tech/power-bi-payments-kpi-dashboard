@@ -2,6 +2,8 @@
 
 Suggested DAX measures for the Power BI Payments KPI Dashboard.
 
+These measures are designed to respond correctly to filters, slicers, and visual interactions.
+
 ## Core measures
 
 ```DAX
@@ -11,33 +13,45 @@ COUNTROWS(Payments)
 
 ```DAX
 Successful Payments =
-CALCULATE(
-    [Total Payments],
-    Payments[Status] = "Successful"
+COALESCE(
+    CALCULATE(
+        [Total Payments],
+        KEEPFILTERS(Payments[Status] = "Successful")
+    ),
+    0
 )
 ```
 
 ```DAX
 Failed Payments =
-CALCULATE(
-    [Total Payments],
-    Payments[Status] = "Failed"
+COALESCE(
+    CALCULATE(
+        [Total Payments],
+        KEEPFILTERS(Payments[Status] = "Failed")
+    ),
+    0
 )
 ```
 
 ```DAX
 Pending Payments =
-CALCULATE(
-    [Total Payments],
-    Payments[Status] = "Pending"
+COALESCE(
+    CALCULATE(
+        [Total Payments],
+        KEEPFILTERS(Payments[Status] = "Pending")
+    ),
+    0
 )
 ```
 
 ```DAX
 Refunded Payments =
-CALCULATE(
-    [Total Payments],
-    Payments[Status] = "Refunded"
+COALESCE(
+    CALCULATE(
+        [Total Payments],
+        KEEPFILTERS(Payments[Status] = "Refunded")
+    ),
+    0
 )
 ```
 
@@ -45,7 +59,8 @@ CALCULATE(
 Failure Rate =
 DIVIDE(
     [Failed Payments],
-    [Total Payments]
+    [Total Payments],
+    0
 )
 ```
 
@@ -53,7 +68,8 @@ DIVIDE(
 Success Rate =
 DIVIDE(
     [Successful Payments],
-    [Total Payments]
+    [Total Payments],
+    0
 )
 ```
 
@@ -66,24 +82,45 @@ SUM(Payments[Amount])
 
 ```DAX
 Successful Amount =
-CALCULATE(
-    [Total Amount],
-    Payments[Status] = "Successful"
+COALESCE(
+    CALCULATE(
+        [Total Amount],
+        KEEPFILTERS(Payments[Status] = "Successful")
+    ),
+    0
+)
+```
+
+```DAX
+Failed Amount =
+COALESCE(
+    CALCULATE(
+        [Total Amount],
+        KEEPFILTERS(Payments[Status] = "Failed")
+    ),
+    0
 )
 ```
 
 ```DAX
 Average Payment Amount =
-AVERAGE(Payments[Amount])
+COALESCE(
+    AVERAGE(Payments[Amount]),
+    0
+)
 ```
 
 ## Error and SLA measures
 
 ```DAX
 Payments With Error =
-CALCULATE(
-    [Total Payments],
-    Payments[ErrorType] <> "None"
+COALESCE(
+    CALCULATE(
+        [Total Payments],
+        KEEPFILTERS(NOT ISBLANK(Payments[ErrorType])),
+        KEEPFILTERS(Payments[ErrorType] <> "None")
+    ),
+    0
 )
 ```
 
@@ -91,15 +128,19 @@ CALCULATE(
 Error Rate =
 DIVIDE(
     [Payments With Error],
-    [Total Payments]
+    [Total Payments],
+    0
 )
 ```
 
 ```DAX
 SLA Breaches =
-CALCULATE(
-    [Total Payments],
-    Payments[SLAStatus] = "Breached SLA"
+COALESCE(
+    CALCULATE(
+        [Total Payments],
+        KEEPFILTERS(Payments[SLAStatus] = "Breached SLA")
+    ),
+    0
 )
 ```
 
@@ -107,11 +148,12 @@ CALCULATE(
 SLA Breach Rate =
 DIVIDE(
     [SLA Breaches],
-    [Total Payments]
+    [Total Payments],
+    0
 )
 ```
 
-## Calendar table
+## Optional calendar table
 
 ```DAX
 Calendar =
@@ -135,6 +177,14 @@ IF(Payments[Status] = "Failed", 1, 0)
 
 ## Notes
 
-- Measures are preferred for dynamic reporting because they respond to filters and slicers.
-- `DIVIDE()` is used instead of `/` to safely handle division by zero.
-- These measures should be validated against the source dataset or SQL queries before being used for business reporting.
+Measures are preferred for dynamic reporting because they respond to filters and slicers.
+
+`DIVIDE()` is used instead of `/` to safely handle division by zero.
+
+`KEEPFILTERS()` is used in status-specific measures so that visual interactions behave correctly. For example:
+
+* selecting `Failed` should show a `Failure Rate` of 100%.
+* selecting `Successful`, `Pending`, or `Refunded` should show `Failed Payments = 0`.
+* selecting a region, product, or channel should recalculate the KPIs only within that selected context.
+
+These measures should be validated against the source dataset or SQL queries before being used for business reporting.
