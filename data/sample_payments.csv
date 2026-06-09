@@ -1,0 +1,751 @@
+PaymentID,PaymentDate,CustomerType,Product,Channel,Status,Amount,ErrorType,Region,SLAStatus
+PAY-00001,2026-01-29,Enterprise,Device Protection,Batch Import,Successful,251.9,None,Argentina,Within SLA
+PAY-00002,2026-06-01,Enterprise,Device Protection,Batch Import,Successful,49.58,None,Brazil,Within SLA
+PAY-00003,2026-05-20,Individual,Extended Warranty,Call Center,Successful,395.6,None,Chile,Within SLA
+PAY-00004,2026-03-13,Individual,Home Protection,Web,Successful,814.7,None,Chile,Within SLA
+PAY-00005,2026-03-30,Enterprise,Device Protection,Call Center,Successful,690.88,None,Argentina,Within SLA
+PAY-00006,2026-05-22,Small Business,Extended Warranty,Web,Successful,543.63,None,Argentina,Breached SLA
+PAY-00007,2026-02-28,Individual,Home Protection,Partner Portal,Successful,837.81,None,Mexico,Within SLA
+PAY-00008,2026-04-04,Enterprise,Device Protection,Batch Import,Successful,318.1,None,Brazil,Within SLA
+PAY-00009,2026-05-17,Enterprise,Extended Warranty,Partner Portal,Successful,159.81,None,Argentina,Within SLA
+PAY-00010,2026-02-28,Enterprise,Premium Direct,Mobile App,Failed,355.96,Invalid Data,Mexico,Within SLA
+PAY-00011,2026-04-12,Individual,Premium Direct,Batch Import,Failed,403.55,System Error,Mexico,Within SLA
+PAY-00012,2026-05-30,Enterprise,Home Protection,Web,Successful,205.94,None,Argentina,Breached SLA
+PAY-00013,2026-01-29,Enterprise,Device Protection,Call Center,Successful,156.99,None,Mexico,Within SLA
+PAY-00014,2026-06-02,Enterprise,Device Protection,Batch Import,Refunded,-481.41,Insufficient Funds,Chile,Breached SLA
+PAY-00015,2026-03-29,Enterprise,Premium Direct,Batch Import,Successful,383.68,None,Brazil,Within SLA
+PAY-00016,2026-05-10,Enterprise,Extended Warranty,Mobile App,Pending,271.22,System Error,Chile,Within SLA
+PAY-00017,2026-02-11,Individual,Premium Direct,Call Center,Successful,667.37,None,Argentina,Within SLA
+PAY-00018,2026-01-29,Enterprise,Device Protection,Web,Pending,222.55,Invalid Data,Mexico,Within SLA
+PAY-00019,2026-01-18,Enterprise,Extended Warranty,Partner Portal,Refunded,-130.92,Insufficient Funds,United States,Within SLA
+PAY-00020,2026-06-05,Enterprise,Extended Warranty,Partner Portal,Successful,199.73,None,Mexico,Within SLA
+PAY-00021,2026-04-06,Individual,Device Protection,Partner Portal,Successful,452.0,None,Argentina,Within SLA
+PAY-00022,2026-05-31,Enterprise,Device Protection,Mobile App,Successful,510.46,None,Argentina,Within SLA
+PAY-00023,2026-01-09,Small Business,Extended Warranty,Batch Import,Failed,449.18,Card Declined,Brazil,Within SLA
+PAY-00024,2026-05-27,Small Business,Extended Warranty,Web,Successful,225.47,None,Argentina,Within SLA
+PAY-00025,2026-04-21,Individual,Device Protection,Web,Successful,364.16,None,Mexico,Within SLA
+PAY-00026,2026-03-28,Small Business,Extended Warranty,Call Center,Failed,230.14,Card Declined,Brazil,Within SLA
+PAY-00027,2026-03-13,Enterprise,Device Protection,Web,Successful,746.45,None,United States,Within SLA
+PAY-00028,2026-01-04,Small Business,Device Protection,Mobile App,Refunded,-425.65,Gateway Timeout,Mexico,Within SLA
+PAY-00029,2026-01-01,Enterprise,Home Protection,Mobile App,Refunded,-672.73,Invalid Data,Brazil,Within SLA
+PAY-00030,2026-03-17,Individual,Premium Direct,Web,Successful,73.25,None,Argentina,Within SLA
+PAY-00031,2026-05-30,Individual,Device Protection,Mobile App,Successful,783.49,None,Argentina,Within SLA
+PAY-00032,2026-06-02,Enterprise,Extended Warranty,Batch Import,Successful,736.0,None,United States,Within SLA
+PAY-00033,2026-01-11,Enterprise,Premium Direct,Partner Portal,Successful,370.86,None,Brazil,Within SLA
+PAY-00034,2026-03-22,Small Business,Home Protection,Partner Portal,Successful,351.52,None,Argentina,Within SLA
+PAY-00035,2026-01-03,Individual,Extended Warranty,Batch Import,Successful,848.72,None,Chile,Breached SLA
+PAY-00036,2026-02-03,Individual,Home Protection,Batch Import,Pending,750.4,Card Declined,Chile,Within SLA
+PAY-00037,2026-06-06,Enterprise,Device Protection,Mobile App,Refunded,-575.99,System Error,Chile,Within SLA
+PAY-00038,2026-01-30,Enterprise,Extended Warranty,Partner Portal,Failed,481.41,System Error,Brazil,Within SLA
+PAY-00039,2026-03-09,Individual,Device Protection,Call Center,Successful,232.18,None,Chile,Breached SLA
+PAY-00040,2026-01-12,Small Business,Extended Warranty,Call Center,Successful,661.17,None,United States,Within SLA
+PAY-00041,2026-04-20,Enterprise,Extended Warranty,Batch Import,Successful,117.3,None,Argentina,Breached SLA
+PAY-00042,2026-04-05,Small Business,Premium Direct,Web,Successful,147.18,None,Chile,Within SLA
+PAY-00043,2026-02-23,Enterprise,Home Protection,Batch Import,Successful,575.22,None,Brazil,Within SLA
+PAY-00044,2026-03-02,Enterprise,Premium Direct,Call Center,Failed,752.17,Gateway Timeout,Brazil,Within SLA
+PAY-00045,2026-03-10,Individual,Home Protection,Mobile App,Successful,603.55,None,Brazil,Within SLA
+PAY-00046,2026-04-28,Individual,Device Protection,Mobile App,Successful,701.94,None,Mexico,Within SLA
+PAY-00047,2026-03-26,Small Business,Home Protection,Batch Import,Successful,82.27,None,Chile,Within SLA
+PAY-00048,2026-01-08,Small Business,Device Protection,Web,Successful,825.58,None,United States,Within SLA
+PAY-00049,2026-04-22,Enterprise,Device Protection,Call Center,Successful,673.8,None,United States,Within SLA
+PAY-00050,2026-02-18,Enterprise,Extended Warranty,Partner Portal,Successful,609.75,None,Mexico,Within SLA
+PAY-00051,2026-01-18,Individual,Premium Direct,Batch Import,Pending,539.1,Invalid Data,Chile,Within SLA
+PAY-00052,2026-04-15,Individual,Home Protection,Call Center,Successful,600.2,None,Brazil,Within SLA
+PAY-00053,2026-06-07,Small Business,Premium Direct,Mobile App,Successful,360.01,None,Mexico,Within SLA
+PAY-00054,2026-05-29,Enterprise,Extended Warranty,Batch Import,Successful,290.86,None,Mexico,Within SLA
+PAY-00055,2026-02-13,Enterprise,Premium Direct,Web,Successful,259.12,None,Brazil,Within SLA
+PAY-00056,2026-03-21,Individual,Home Protection,Batch Import,Successful,189.28,None,Argentina,Within SLA
+PAY-00057,2026-04-27,Enterprise,Home Protection,Call Center,Successful,544.56,None,Mexico,Within SLA
+PAY-00058,2026-03-04,Individual,Home Protection,Mobile App,Successful,592.29,None,Brazil,Breached SLA
+PAY-00059,2026-05-13,Individual,Home Protection,Mobile App,Successful,484.86,None,Mexico,Breached SLA
+PAY-00060,2026-05-16,Enterprise,Home Protection,Batch Import,Refunded,-648.08,Insufficient Funds,Mexico,Within SLA
+PAY-00061,2026-02-10,Individual,Premium Direct,Batch Import,Successful,416.61,None,Mexico,Within SLA
+PAY-00062,2026-06-10,Individual,Premium Direct,Partner Portal,Successful,387.89,None,Chile,Within SLA
+PAY-00063,2026-05-19,Individual,Extended Warranty,Web,Successful,149.44,None,Mexico,Within SLA
+PAY-00064,2026-04-15,Small Business,Home Protection,Batch Import,Successful,409.39,None,Argentina,Within SLA
+PAY-00065,2026-05-28,Small Business,Home Protection,Batch Import,Successful,29.86,None,United States,Within SLA
+PAY-00066,2026-06-04,Individual,Home Protection,Partner Portal,Failed,206.02,Duplicate Payment,Mexico,Within SLA
+PAY-00067,2026-02-12,Small Business,Device Protection,Web,Failed,834.1,Gateway Timeout,Mexico,Within SLA
+PAY-00068,2026-02-04,Individual,Home Protection,Partner Portal,Failed,66.48,Gateway Timeout,Chile,Within SLA
+PAY-00069,2026-04-08,Individual,Home Protection,Web,Successful,809.74,None,United States,Within SLA
+PAY-00070,2026-01-14,Individual,Device Protection,Mobile App,Refunded,-81.61,Invalid Data,Brazil,Breached SLA
+PAY-00071,2026-01-06,Individual,Extended Warranty,Call Center,Successful,221.8,None,Chile,Within SLA
+PAY-00072,2026-04-05,Individual,Extended Warranty,Partner Portal,Successful,525.98,None,Argentina,Within SLA
+PAY-00073,2026-05-29,Small Business,Home Protection,Mobile App,Successful,282.36,None,Argentina,Within SLA
+PAY-00074,2026-06-01,Small Business,Device Protection,Batch Import,Successful,542.47,None,Argentina,Within SLA
+PAY-00075,2026-03-30,Enterprise,Premium Direct,Web,Successful,570.76,None,Mexico,Within SLA
+PAY-00076,2026-05-06,Small Business,Extended Warranty,Call Center,Successful,817.65,None,Brazil,Within SLA
+PAY-00077,2026-05-14,Small Business,Home Protection,Batch Import,Refunded,-783.68,Invalid Data,Chile,Within SLA
+PAY-00078,2026-03-24,Small Business,Home Protection,Partner Portal,Failed,255.12,Card Declined,Argentina,Within SLA
+PAY-00079,2026-05-07,Small Business,Premium Direct,Partner Portal,Failed,427.23,Gateway Timeout,United States,Within SLA
+PAY-00080,2026-03-12,Individual,Home Protection,Call Center,Successful,451.22,None,United States,Within SLA
+PAY-00081,2026-03-03,Individual,Device Protection,Partner Portal,Successful,557.87,None,Brazil,Within SLA
+PAY-00082,2026-04-14,Small Business,Premium Direct,Call Center,Successful,277.62,None,United States,Within SLA
+PAY-00083,2026-03-26,Individual,Device Protection,Mobile App,Successful,399.34,None,Chile,Within SLA
+PAY-00084,2026-01-31,Individual,Extended Warranty,Call Center,Successful,809.47,None,Chile,Within SLA
+PAY-00085,2026-05-31,Small Business,Extended Warranty,Partner Portal,Refunded,-833.92,Insufficient Funds,Brazil,Within SLA
+PAY-00086,2026-03-19,Individual,Premium Direct,Mobile App,Successful,465.66,None,Mexico,Within SLA
+PAY-00087,2026-01-27,Small Business,Extended Warranty,Web,Failed,259.58,Insufficient Funds,Chile,Within SLA
+PAY-00088,2026-05-03,Enterprise,Device Protection,Mobile App,Successful,78.91,None,Brazil,Within SLA
+PAY-00089,2026-05-25,Small Business,Extended Warranty,Batch Import,Pending,844.98,Card Declined,Mexico,Within SLA
+PAY-00090,2026-04-26,Small Business,Device Protection,Batch Import,Pending,734.64,Invalid Data,Argentina,Breached SLA
+PAY-00091,2026-02-23,Individual,Extended Warranty,Batch Import,Successful,243.33,None,Argentina,Within SLA
+PAY-00092,2026-02-10,Small Business,Device Protection,Mobile App,Successful,396.67,None,Chile,Within SLA
+PAY-00093,2026-03-14,Small Business,Extended Warranty,Call Center,Successful,399.58,None,Argentina,Within SLA
+PAY-00094,2026-05-20,Individual,Device Protection,Web,Successful,147.92,None,Brazil,Within SLA
+PAY-00095,2026-03-20,Small Business,Device Protection,Call Center,Successful,705.0,None,Chile,Breached SLA
+PAY-00096,2026-04-14,Enterprise,Device Protection,Call Center,Pending,470.48,Insufficient Funds,Chile,Within SLA
+PAY-00097,2026-06-04,Enterprise,Device Protection,Partner Portal,Successful,100.34,None,United States,Breached SLA
+PAY-00098,2026-01-11,Small Business,Premium Direct,Mobile App,Successful,169.53,None,United States,Within SLA
+PAY-00099,2026-04-22,Small Business,Home Protection,Partner Portal,Successful,430.67,None,Chile,Within SLA
+PAY-00100,2026-01-27,Enterprise,Home Protection,Batch Import,Failed,364.61,Invalid Data,Argentina,Within SLA
+PAY-00101,2026-04-27,Small Business,Device Protection,Batch Import,Successful,233.23,None,Mexico,Within SLA
+PAY-00102,2026-04-16,Small Business,Home Protection,Web,Successful,452.71,None,Brazil,Within SLA
+PAY-00103,2026-03-10,Enterprise,Home Protection,Web,Successful,790.33,None,Argentina,Within SLA
+PAY-00104,2026-06-05,Enterprise,Home Protection,Web,Failed,155.66,System Error,Brazil,Within SLA
+PAY-00105,2026-01-30,Small Business,Premium Direct,Batch Import,Successful,121.91,None,Chile,Within SLA
+PAY-00106,2026-04-17,Small Business,Extended Warranty,Batch Import,Failed,226.08,Duplicate Payment,United States,Within SLA
+PAY-00107,2026-02-04,Small Business,Premium Direct,Web,Failed,662.46,Invalid Data,Chile,Within SLA
+PAY-00108,2026-03-18,Individual,Home Protection,Batch Import,Failed,849.09,Insufficient Funds,Mexico,Within SLA
+PAY-00109,2026-03-30,Small Business,Extended Warranty,Mobile App,Successful,654.37,None,United States,Within SLA
+PAY-00110,2026-04-09,Enterprise,Home Protection,Call Center,Successful,664.82,None,Mexico,Within SLA
+PAY-00111,2026-02-08,Enterprise,Premium Direct,Web,Successful,55.54,None,Mexico,Within SLA
+PAY-00112,2026-01-26,Small Business,Extended Warranty,Web,Successful,401.97,None,Mexico,Within SLA
+PAY-00113,2026-03-09,Small Business,Home Protection,Partner Portal,Successful,596.48,None,Mexico,Within SLA
+PAY-00114,2026-05-19,Small Business,Extended Warranty,Web,Successful,81.45,None,Mexico,Within SLA
+PAY-00115,2026-01-26,Individual,Premium Direct,Web,Successful,605.71,None,Argentina,Within SLA
+PAY-00116,2026-03-25,Individual,Home Protection,Batch Import,Failed,320.73,Invalid Data,Brazil,Within SLA
+PAY-00117,2026-02-13,Enterprise,Extended Warranty,Call Center,Successful,527.83,None,United States,Within SLA
+PAY-00118,2026-02-06,Enterprise,Device Protection,Call Center,Successful,551.27,None,Chile,Within SLA
+PAY-00119,2026-05-20,Enterprise,Premium Direct,Call Center,Successful,389.43,None,Chile,Within SLA
+PAY-00120,2026-04-27,Individual,Extended Warranty,Call Center,Failed,849.48,Gateway Timeout,United States,Within SLA
+PAY-00121,2026-04-02,Enterprise,Home Protection,Partner Portal,Successful,843.97,None,Argentina,Within SLA
+PAY-00122,2026-05-25,Enterprise,Home Protection,Partner Portal,Failed,828.22,System Error,Brazil,Breached SLA
+PAY-00123,2026-06-05,Enterprise,Extended Warranty,Web,Failed,550.21,Gateway Timeout,Argentina,Within SLA
+PAY-00124,2026-03-21,Individual,Premium Direct,Partner Portal,Failed,503.15,Card Declined,Mexico,Within SLA
+PAY-00125,2026-02-14,Small Business,Premium Direct,Mobile App,Successful,673.87,None,Chile,Within SLA
+PAY-00126,2026-05-04,Individual,Extended Warranty,Mobile App,Refunded,-304.44,Invalid Data,Mexico,Within SLA
+PAY-00127,2026-05-23,Enterprise,Device Protection,Call Center,Successful,677.31,None,Chile,Within SLA
+PAY-00128,2026-03-09,Individual,Extended Warranty,Call Center,Successful,703.49,None,Argentina,Breached SLA
+PAY-00129,2026-06-08,Enterprise,Device Protection,Call Center,Failed,295.61,Insufficient Funds,Chile,Within SLA
+PAY-00130,2026-04-15,Small Business,Device Protection,Web,Successful,62.41,None,Brazil,Within SLA
+PAY-00131,2026-05-18,Enterprise,Home Protection,Batch Import,Successful,399.26,None,Brazil,Within SLA
+PAY-00132,2026-04-17,Small Business,Device Protection,Partner Portal,Successful,712.8,None,Brazil,Within SLA
+PAY-00133,2026-04-24,Enterprise,Premium Direct,Batch Import,Successful,219.79,None,Chile,Within SLA
+PAY-00134,2026-01-16,Small Business,Device Protection,Mobile App,Successful,181.59,None,United States,Within SLA
+PAY-00135,2026-01-06,Enterprise,Extended Warranty,Web,Successful,300.15,None,United States,Breached SLA
+PAY-00136,2026-02-23,Individual,Device Protection,Partner Portal,Successful,695.77,None,Brazil,Within SLA
+PAY-00137,2026-02-03,Individual,Extended Warranty,Web,Successful,683.77,None,Chile,Within SLA
+PAY-00138,2026-03-02,Individual,Home Protection,Batch Import,Successful,38.02,None,Argentina,Within SLA
+PAY-00139,2026-01-17,Individual,Home Protection,Batch Import,Successful,666.86,None,Brazil,Within SLA
+PAY-00140,2026-06-07,Enterprise,Premium Direct,Call Center,Successful,671.16,None,Argentina,Within SLA
+PAY-00141,2026-01-16,Small Business,Device Protection,Web,Refunded,-114.07,Duplicate Payment,Chile,Within SLA
+PAY-00142,2026-06-05,Enterprise,Premium Direct,Call Center,Successful,129.11,None,United States,Within SLA
+PAY-00143,2026-05-16,Enterprise,Device Protection,Batch Import,Successful,442.08,None,Brazil,Within SLA
+PAY-00144,2026-04-21,Small Business,Home Protection,Call Center,Successful,213.51,None,Argentina,Within SLA
+PAY-00145,2026-03-22,Individual,Home Protection,Web,Successful,573.71,None,Argentina,Within SLA
+PAY-00146,2026-01-22,Individual,Device Protection,Batch Import,Successful,104.67,None,United States,Within SLA
+PAY-00147,2026-05-24,Enterprise,Home Protection,Web,Successful,125.84,None,Chile,Within SLA
+PAY-00148,2026-06-03,Individual,Home Protection,Mobile App,Successful,110.47,None,Argentina,Within SLA
+PAY-00149,2026-03-31,Individual,Home Protection,Batch Import,Failed,119.78,Invalid Data,United States,Within SLA
+PAY-00150,2026-06-07,Enterprise,Premium Direct,Web,Successful,484.31,None,Brazil,Within SLA
+PAY-00151,2026-03-11,Individual,Extended Warranty,Mobile App,Successful,279.91,None,United States,Within SLA
+PAY-00152,2026-04-13,Individual,Extended Warranty,Call Center,Successful,636.3,None,Mexico,Breached SLA
+PAY-00153,2026-04-27,Enterprise,Device Protection,Web,Successful,330.29,None,Brazil,Within SLA
+PAY-00154,2026-02-10,Small Business,Home Protection,Call Center,Successful,66.05,None,United States,Within SLA
+PAY-00155,2026-04-24,Small Business,Home Protection,Web,Successful,202.84,None,Chile,Within SLA
+PAY-00156,2026-06-01,Small Business,Device Protection,Web,Successful,575.38,None,Brazil,Within SLA
+PAY-00157,2026-03-19,Individual,Device Protection,Call Center,Pending,655.43,Gateway Timeout,Mexico,Within SLA
+PAY-00158,2026-02-14,Enterprise,Premium Direct,Web,Successful,464.38,None,Mexico,Within SLA
+PAY-00159,2026-01-11,Small Business,Home Protection,Batch Import,Successful,404.3,None,Mexico,Within SLA
+PAY-00160,2026-04-17,Individual,Home Protection,Partner Portal,Successful,359.15,None,Argentina,Breached SLA
+PAY-00161,2026-04-22,Individual,Home Protection,Partner Portal,Failed,384.43,Gateway Timeout,Chile,Within SLA
+PAY-00162,2026-02-26,Individual,Extended Warranty,Partner Portal,Successful,163.71,None,Chile,Within SLA
+PAY-00163,2026-02-07,Enterprise,Extended Warranty,Web,Successful,145.82,None,Brazil,Within SLA
+PAY-00164,2026-06-10,Small Business,Premium Direct,Partner Portal,Successful,647.42,None,Brazil,Within SLA
+PAY-00165,2026-04-23,Small Business,Device Protection,Partner Portal,Successful,389.82,None,United States,Within SLA
+PAY-00166,2026-01-19,Small Business,Device Protection,Web,Successful,397.83,None,United States,Within SLA
+PAY-00167,2026-06-02,Enterprise,Device Protection,Call Center,Successful,406.74,None,United States,Within SLA
+PAY-00168,2026-02-18,Individual,Home Protection,Web,Successful,417.39,None,Chile,Within SLA
+PAY-00169,2026-01-22,Small Business,Home Protection,Batch Import,Successful,167.36,None,United States,Within SLA
+PAY-00170,2026-06-06,Small Business,Premium Direct,Batch Import,Successful,332.6,None,Argentina,Within SLA
+PAY-00171,2026-03-27,Small Business,Premium Direct,Batch Import,Successful,102.97,None,Brazil,Within SLA
+PAY-00172,2026-03-27,Small Business,Home Protection,Mobile App,Successful,572.48,None,United States,Breached SLA
+PAY-00173,2026-01-22,Individual,Device Protection,Call Center,Successful,335.76,None,United States,Within SLA
+PAY-00174,2026-04-03,Small Business,Home Protection,Mobile App,Successful,279.81,None,Brazil,Breached SLA
+PAY-00175,2026-02-05,Enterprise,Device Protection,Partner Portal,Successful,269.03,None,United States,Within SLA
+PAY-00176,2026-02-03,Enterprise,Extended Warranty,Call Center,Successful,152.26,None,Argentina,Within SLA
+PAY-00177,2026-04-16,Enterprise,Premium Direct,Call Center,Successful,618.66,None,Brazil,Breached SLA
+PAY-00178,2026-05-17,Individual,Premium Direct,Batch Import,Successful,821.62,None,Mexico,Within SLA
+PAY-00179,2026-04-29,Small Business,Extended Warranty,Mobile App,Successful,666.95,None,United States,Within SLA
+PAY-00180,2026-02-05,Enterprise,Device Protection,Batch Import,Failed,553.97,Card Declined,Argentina,Within SLA
+PAY-00181,2026-03-14,Enterprise,Extended Warranty,Call Center,Successful,157.26,None,Argentina,Within SLA
+PAY-00182,2026-02-26,Small Business,Premium Direct,Mobile App,Failed,792.64,Invalid Data,Mexico,Within SLA
+PAY-00183,2026-01-21,Enterprise,Premium Direct,Mobile App,Successful,48.25,None,Brazil,Breached SLA
+PAY-00184,2026-01-10,Individual,Home Protection,Call Center,Successful,709.55,None,United States,Within SLA
+PAY-00185,2026-01-02,Enterprise,Home Protection,Web,Pending,236.14,Card Declined,Chile,Within SLA
+PAY-00186,2026-03-02,Enterprise,Home Protection,Web,Successful,64.39,None,Argentina,Within SLA
+PAY-00187,2026-05-08,Individual,Extended Warranty,Partner Portal,Successful,38.56,None,Mexico,Within SLA
+PAY-00188,2026-01-01,Enterprise,Device Protection,Batch Import,Successful,223.47,None,Chile,Within SLA
+PAY-00189,2026-01-18,Enterprise,Device Protection,Call Center,Pending,443.55,Insufficient Funds,Mexico,Breached SLA
+PAY-00190,2026-01-12,Individual,Premium Direct,Web,Successful,834.36,None,Chile,Within SLA
+PAY-00191,2026-03-03,Enterprise,Premium Direct,Mobile App,Successful,543.31,None,Argentina,Within SLA
+PAY-00192,2026-04-01,Enterprise,Home Protection,Call Center,Successful,696.14,None,Brazil,Within SLA
+PAY-00193,2026-02-04,Small Business,Extended Warranty,Web,Successful,665.36,None,Brazil,Within SLA
+PAY-00194,2026-01-11,Enterprise,Home Protection,Partner Portal,Successful,280.81,None,Argentina,Within SLA
+PAY-00195,2026-02-18,Enterprise,Premium Direct,Partner Portal,Successful,736.26,None,Argentina,Within SLA
+PAY-00196,2026-04-05,Small Business,Premium Direct,Mobile App,Successful,355.02,None,Mexico,Within SLA
+PAY-00197,2026-05-08,Individual,Home Protection,Web,Successful,682.76,None,Mexico,Within SLA
+PAY-00198,2026-06-04,Enterprise,Premium Direct,Partner Portal,Refunded,-290.0,Gateway Timeout,Mexico,Within SLA
+PAY-00199,2026-06-04,Small Business,Device Protection,Partner Portal,Successful,162.48,None,United States,Within SLA
+PAY-00200,2026-04-22,Individual,Home Protection,Partner Portal,Successful,833.52,None,United States,Breached SLA
+PAY-00201,2026-02-10,Small Business,Device Protection,Mobile App,Pending,725.15,Gateway Timeout,Argentina,Within SLA
+PAY-00202,2026-03-02,Enterprise,Device Protection,Batch Import,Successful,327.22,None,Brazil,Within SLA
+PAY-00203,2026-04-26,Individual,Premium Direct,Call Center,Pending,391.25,Invalid Data,Chile,Within SLA
+PAY-00204,2026-03-13,Small Business,Home Protection,Batch Import,Successful,118.6,None,Argentina,Within SLA
+PAY-00205,2026-03-09,Enterprise,Premium Direct,Call Center,Successful,605.83,None,Brazil,Within SLA
+PAY-00206,2026-02-01,Enterprise,Home Protection,Web,Successful,86.09,None,Chile,Within SLA
+PAY-00207,2026-03-30,Small Business,Extended Warranty,Mobile App,Successful,478.75,None,Chile,Within SLA
+PAY-00208,2026-05-11,Individual,Home Protection,Web,Successful,837.73,None,Chile,Within SLA
+PAY-00209,2026-05-22,Individual,Device Protection,Web,Successful,410.61,None,Chile,Breached SLA
+PAY-00210,2026-04-12,Enterprise,Device Protection,Mobile App,Refunded,-363.91,System Error,Chile,Within SLA
+PAY-00211,2026-01-19,Enterprise,Extended Warranty,Mobile App,Successful,586.09,None,Mexico,Within SLA
+PAY-00212,2026-05-09,Small Business,Extended Warranty,Mobile App,Pending,710.9,Card Declined,Chile,Within SLA
+PAY-00213,2026-02-27,Individual,Premium Direct,Mobile App,Successful,801.25,None,United States,Breached SLA
+PAY-00214,2026-03-12,Enterprise,Extended Warranty,Batch Import,Successful,274.83,None,United States,Within SLA
+PAY-00215,2026-02-09,Small Business,Device Protection,Web,Successful,540.2,None,Argentina,Breached SLA
+PAY-00216,2026-01-12,Enterprise,Home Protection,Batch Import,Pending,243.34,Insufficient Funds,Argentina,Within SLA
+PAY-00217,2026-05-08,Small Business,Extended Warranty,Call Center,Failed,263.98,Insufficient Funds,Chile,Breached SLA
+PAY-00218,2026-04-27,Small Business,Home Protection,Mobile App,Successful,74.43,None,Chile,Within SLA
+PAY-00219,2026-06-05,Small Business,Home Protection,Mobile App,Successful,735.73,None,Chile,Within SLA
+PAY-00220,2026-05-12,Small Business,Home Protection,Mobile App,Successful,288.27,None,Brazil,Within SLA
+PAY-00221,2026-01-25,Small Business,Extended Warranty,Mobile App,Successful,804.94,None,Chile,Within SLA
+PAY-00222,2026-05-28,Enterprise,Home Protection,Call Center,Successful,181.61,None,Chile,Within SLA
+PAY-00223,2026-05-08,Individual,Extended Warranty,Batch Import,Successful,804.82,None,Chile,Within SLA
+PAY-00224,2026-01-13,Enterprise,Home Protection,Partner Portal,Successful,433.29,None,United States,Breached SLA
+PAY-00225,2026-01-03,Small Business,Home Protection,Partner Portal,Failed,135.5,Duplicate Payment,Argentina,Within SLA
+PAY-00226,2026-04-13,Small Business,Device Protection,Call Center,Successful,488.5,None,United States,Within SLA
+PAY-00227,2026-04-26,Enterprise,Device Protection,Mobile App,Successful,255.77,None,Argentina,Breached SLA
+PAY-00228,2026-04-11,Small Business,Extended Warranty,Mobile App,Successful,839.1,None,United States,Within SLA
+PAY-00229,2026-05-11,Enterprise,Premium Direct,Call Center,Successful,58.21,None,United States,Within SLA
+PAY-00230,2026-04-27,Enterprise,Premium Direct,Mobile App,Successful,761.83,None,Mexico,Within SLA
+PAY-00231,2026-06-07,Enterprise,Home Protection,Batch Import,Successful,271.87,None,Chile,Within SLA
+PAY-00232,2026-05-02,Small Business,Premium Direct,Web,Failed,298.27,Invalid Data,United States,Within SLA
+PAY-00233,2026-05-02,Enterprise,Extended Warranty,Web,Successful,565.86,None,United States,Breached SLA
+PAY-00234,2026-05-03,Small Business,Extended Warranty,Mobile App,Successful,543.95,None,Argentina,Within SLA
+PAY-00235,2026-05-27,Small Business,Extended Warranty,Call Center,Pending,182.4,Card Declined,Brazil,Within SLA
+PAY-00236,2026-04-16,Enterprise,Device Protection,Mobile App,Successful,529.47,None,United States,Within SLA
+PAY-00237,2026-02-23,Small Business,Premium Direct,Mobile App,Successful,848.45,None,Mexico,Within SLA
+PAY-00238,2026-05-17,Enterprise,Premium Direct,Batch Import,Successful,317.29,None,Mexico,Within SLA
+PAY-00239,2026-02-19,Small Business,Premium Direct,Mobile App,Pending,485.42,Invalid Data,Mexico,Within SLA
+PAY-00240,2026-03-23,Enterprise,Premium Direct,Partner Portal,Successful,487.4,None,Argentina,Breached SLA
+PAY-00241,2026-05-27,Small Business,Extended Warranty,Partner Portal,Successful,338.25,None,Argentina,Breached SLA
+PAY-00242,2026-03-15,Small Business,Home Protection,Mobile App,Pending,310.75,Card Declined,Brazil,Within SLA
+PAY-00243,2026-05-18,Individual,Extended Warranty,Mobile App,Successful,488.66,None,Argentina,Within SLA
+PAY-00244,2026-05-16,Small Business,Home Protection,Web,Successful,217.09,None,Brazil,Within SLA
+PAY-00245,2026-01-02,Small Business,Extended Warranty,Partner Portal,Refunded,-796.4,Gateway Timeout,Chile,Within SLA
+PAY-00246,2026-03-15,Enterprise,Extended Warranty,Batch Import,Successful,774.05,None,Argentina,Within SLA
+PAY-00247,2026-02-14,Individual,Home Protection,Call Center,Successful,716.02,None,Brazil,Breached SLA
+PAY-00248,2026-03-16,Small Business,Premium Direct,Call Center,Failed,271.17,Card Declined,United States,Within SLA
+PAY-00249,2026-05-15,Small Business,Premium Direct,Mobile App,Successful,799.31,None,Argentina,Within SLA
+PAY-00250,2026-03-26,Individual,Device Protection,Partner Portal,Successful,403.6,None,Chile,Within SLA
+PAY-00251,2026-05-26,Enterprise,Home Protection,Call Center,Successful,184.36,None,United States,Within SLA
+PAY-00252,2026-03-25,Individual,Home Protection,Partner Portal,Successful,577.14,None,Brazil,Within SLA
+PAY-00253,2026-01-02,Small Business,Premium Direct,Batch Import,Successful,219.31,None,United States,Within SLA
+PAY-00254,2026-01-03,Enterprise,Device Protection,Call Center,Successful,321.63,None,Chile,Within SLA
+PAY-00255,2026-02-10,Enterprise,Premium Direct,Web,Successful,439.58,None,Chile,Breached SLA
+PAY-00256,2026-04-05,Individual,Home Protection,Batch Import,Successful,205.78,None,Chile,Within SLA
+PAY-00257,2026-04-17,Enterprise,Extended Warranty,Mobile App,Successful,778.06,None,United States,Within SLA
+PAY-00258,2026-01-21,Enterprise,Device Protection,Web,Successful,460.74,None,United States,Within SLA
+PAY-00259,2026-05-10,Enterprise,Home Protection,Web,Successful,467.74,None,Brazil,Within SLA
+PAY-00260,2026-05-30,Individual,Home Protection,Mobile App,Successful,766.58,None,United States,Within SLA
+PAY-00261,2026-04-17,Small Business,Device Protection,Call Center,Successful,72.63,None,Chile,Within SLA
+PAY-00262,2026-01-01,Small Business,Device Protection,Batch Import,Successful,502.11,None,Argentina,Within SLA
+PAY-00263,2026-01-18,Enterprise,Home Protection,Partner Portal,Refunded,-362.32,Duplicate Payment,Mexico,Within SLA
+PAY-00264,2026-04-25,Enterprise,Extended Warranty,Partner Portal,Failed,334.91,Duplicate Payment,Argentina,Within SLA
+PAY-00265,2026-02-15,Individual,Device Protection,Partner Portal,Refunded,-625.48,Duplicate Payment,Mexico,Within SLA
+PAY-00266,2026-05-20,Small Business,Premium Direct,Mobile App,Successful,337.9,None,Chile,Within SLA
+PAY-00267,2026-02-18,Enterprise,Home Protection,Batch Import,Pending,656.53,System Error,Argentina,Within SLA
+PAY-00268,2026-03-03,Enterprise,Device Protection,Mobile App,Successful,108.24,None,Argentina,Within SLA
+PAY-00269,2026-04-13,Individual,Extended Warranty,Batch Import,Successful,470.3,None,Chile,Within SLA
+PAY-00270,2026-03-01,Enterprise,Premium Direct,Mobile App,Failed,500.29,System Error,Chile,Within SLA
+PAY-00271,2026-02-06,Enterprise,Extended Warranty,Call Center,Refunded,-272.91,Insufficient Funds,United States,Within SLA
+PAY-00272,2026-05-07,Small Business,Premium Direct,Call Center,Successful,309.14,None,Mexico,Within SLA
+PAY-00273,2026-02-08,Individual,Extended Warranty,Partner Portal,Successful,176.7,None,Brazil,Within SLA
+PAY-00274,2026-04-29,Enterprise,Extended Warranty,Call Center,Pending,365.46,Insufficient Funds,Brazil,Within SLA
+PAY-00275,2026-03-07,Small Business,Device Protection,Batch Import,Successful,558.53,None,Brazil,Breached SLA
+PAY-00276,2026-01-14,Individual,Extended Warranty,Batch Import,Successful,580.78,None,United States,Within SLA
+PAY-00277,2026-02-25,Individual,Extended Warranty,Mobile App,Successful,742.32,None,Argentina,Within SLA
+PAY-00278,2026-05-03,Individual,Premium Direct,Partner Portal,Pending,523.63,System Error,Mexico,Within SLA
+PAY-00279,2026-04-30,Enterprise,Home Protection,Call Center,Successful,321.39,None,Argentina,Within SLA
+PAY-00280,2026-05-01,Small Business,Home Protection,Web,Successful,289.19,None,United States,Within SLA
+PAY-00281,2026-02-26,Enterprise,Home Protection,Partner Portal,Successful,38.38,None,Brazil,Within SLA
+PAY-00282,2026-02-20,Small Business,Premium Direct,Partner Portal,Successful,338.37,None,Mexico,Within SLA
+PAY-00283,2026-05-06,Individual,Home Protection,Mobile App,Successful,629.54,None,United States,Within SLA
+PAY-00284,2026-01-16,Enterprise,Device Protection,Web,Successful,717.23,None,Mexico,Within SLA
+PAY-00285,2026-02-05,Individual,Home Protection,Partner Portal,Failed,81.07,Gateway Timeout,Argentina,Within SLA
+PAY-00286,2026-06-08,Enterprise,Home Protection,Web,Successful,795.47,None,Argentina,Breached SLA
+PAY-00287,2026-05-17,Small Business,Premium Direct,Web,Successful,34.78,None,United States,Within SLA
+PAY-00288,2026-04-21,Individual,Extended Warranty,Mobile App,Failed,113.29,Gateway Timeout,United States,Within SLA
+PAY-00289,2026-05-15,Individual,Premium Direct,Call Center,Successful,317.41,None,Mexico,Within SLA
+PAY-00290,2026-05-25,Individual,Device Protection,Web,Successful,600.22,None,Mexico,Within SLA
+PAY-00291,2026-04-08,Enterprise,Extended Warranty,Web,Successful,417.7,None,Mexico,Within SLA
+PAY-00292,2026-04-22,Individual,Device Protection,Mobile App,Successful,298.3,None,Brazil,Breached SLA
+PAY-00293,2026-05-26,Small Business,Device Protection,Mobile App,Successful,63.41,None,Chile,Within SLA
+PAY-00294,2026-01-05,Individual,Premium Direct,Mobile App,Refunded,-702.07,Insufficient Funds,United States,Within SLA
+PAY-00295,2026-03-03,Enterprise,Premium Direct,Call Center,Successful,725.79,None,Brazil,Within SLA
+PAY-00296,2026-01-21,Small Business,Extended Warranty,Web,Successful,828.82,None,Chile,Within SLA
+PAY-00297,2026-06-04,Small Business,Device Protection,Partner Portal,Successful,812.76,None,Mexico,Within SLA
+PAY-00298,2026-05-06,Individual,Home Protection,Web,Successful,481.26,None,United States,Within SLA
+PAY-00299,2026-03-17,Small Business,Extended Warranty,Call Center,Failed,85.64,System Error,Chile,Within SLA
+PAY-00300,2026-04-03,Small Business,Premium Direct,Web,Successful,29.29,None,Brazil,Within SLA
+PAY-00301,2026-01-23,Small Business,Device Protection,Web,Successful,395.3,None,Argentina,Within SLA
+PAY-00302,2026-04-01,Small Business,Device Protection,Partner Portal,Successful,517.46,None,Mexico,Within SLA
+PAY-00303,2026-04-10,Individual,Extended Warranty,Call Center,Successful,623.0,None,Brazil,Within SLA
+PAY-00304,2026-02-05,Individual,Home Protection,Partner Portal,Successful,246.44,None,Mexico,Within SLA
+PAY-00305,2026-03-18,Individual,Home Protection,Batch Import,Successful,88.46,None,United States,Within SLA
+PAY-00306,2026-02-20,Small Business,Premium Direct,Batch Import,Successful,136.78,None,Mexico,Within SLA
+PAY-00307,2026-03-26,Enterprise,Extended Warranty,Partner Portal,Successful,380.26,None,Chile,Within SLA
+PAY-00308,2026-06-04,Small Business,Premium Direct,Partner Portal,Pending,420.18,Gateway Timeout,Mexico,Within SLA
+PAY-00309,2026-05-28,Small Business,Premium Direct,Web,Failed,335.25,Invalid Data,United States,Within SLA
+PAY-00310,2026-02-21,Enterprise,Device Protection,Call Center,Successful,475.14,None,Brazil,Within SLA
+PAY-00311,2026-04-23,Small Business,Home Protection,Mobile App,Failed,82.06,System Error,Chile,Within SLA
+PAY-00312,2026-03-03,Small Business,Device Protection,Call Center,Successful,152.17,None,United States,Within SLA
+PAY-00313,2026-05-03,Enterprise,Home Protection,Batch Import,Successful,465.85,None,Argentina,Breached SLA
+PAY-00314,2026-04-03,Individual,Device Protection,Mobile App,Successful,695.15,None,Chile,Within SLA
+PAY-00315,2026-02-12,Enterprise,Home Protection,Partner Portal,Successful,61.54,None,Mexico,Breached SLA
+PAY-00316,2026-01-28,Enterprise,Extended Warranty,Call Center,Successful,238.46,None,Chile,Within SLA
+PAY-00317,2026-04-11,Individual,Premium Direct,Web,Successful,585.63,None,Mexico,Within SLA
+PAY-00318,2026-01-27,Enterprise,Extended Warranty,Partner Portal,Successful,784.45,None,Chile,Within SLA
+PAY-00319,2026-03-29,Small Business,Device Protection,Call Center,Successful,195.67,None,Mexico,Within SLA
+PAY-00320,2026-03-23,Individual,Premium Direct,Web,Successful,61.86,None,Brazil,Within SLA
+PAY-00321,2026-03-04,Small Business,Home Protection,Mobile App,Successful,480.33,None,Mexico,Within SLA
+PAY-00322,2026-02-17,Enterprise,Extended Warranty,Call Center,Successful,567.28,None,United States,Within SLA
+PAY-00323,2026-04-20,Enterprise,Device Protection,Batch Import,Successful,606.41,None,Argentina,Within SLA
+PAY-00324,2026-05-18,Small Business,Home Protection,Batch Import,Successful,293.94,None,Chile,Within SLA
+PAY-00325,2026-06-02,Small Business,Home Protection,Batch Import,Successful,348.85,None,Brazil,Within SLA
+PAY-00326,2026-03-18,Individual,Extended Warranty,Partner Portal,Pending,94.92,Insufficient Funds,Argentina,Within SLA
+PAY-00327,2026-02-16,Enterprise,Extended Warranty,Batch Import,Successful,141.62,None,Mexico,Within SLA
+PAY-00328,2026-04-19,Enterprise,Extended Warranty,Batch Import,Successful,549.29,None,Brazil,Within SLA
+PAY-00329,2026-05-06,Enterprise,Device Protection,Partner Portal,Successful,179.36,None,Argentina,Within SLA
+PAY-00330,2026-05-05,Enterprise,Home Protection,Call Center,Successful,697.55,None,Mexico,Breached SLA
+PAY-00331,2026-04-17,Enterprise,Device Protection,Mobile App,Successful,391.18,None,Chile,Within SLA
+PAY-00332,2026-01-09,Small Business,Home Protection,Batch Import,Successful,468.53,None,United States,Within SLA
+PAY-00333,2026-01-29,Small Business,Device Protection,Call Center,Successful,246.01,None,United States,Within SLA
+PAY-00334,2026-02-25,Individual,Home Protection,Partner Portal,Refunded,-564.28,Card Declined,Chile,Within SLA
+PAY-00335,2026-01-23,Individual,Extended Warranty,Batch Import,Successful,845.02,None,Chile,Within SLA
+PAY-00336,2026-06-06,Individual,Extended Warranty,Web,Successful,161.93,None,United States,Within SLA
+PAY-00337,2026-03-31,Enterprise,Premium Direct,Partner Portal,Successful,517.41,None,United States,Within SLA
+PAY-00338,2026-03-10,Individual,Extended Warranty,Call Center,Pending,838.03,Insufficient Funds,Argentina,Within SLA
+PAY-00339,2026-03-12,Individual,Premium Direct,Mobile App,Failed,603.68,Gateway Timeout,Mexico,Within SLA
+PAY-00340,2026-05-06,Small Business,Home Protection,Web,Successful,546.73,None,Argentina,Within SLA
+PAY-00341,2026-04-14,Small Business,Home Protection,Call Center,Successful,254.54,None,Chile,Breached SLA
+PAY-00342,2026-05-29,Enterprise,Home Protection,Partner Portal,Successful,663.66,None,Argentina,Within SLA
+PAY-00343,2026-05-17,Small Business,Premium Direct,Partner Portal,Successful,823.71,None,Chile,Within SLA
+PAY-00344,2026-03-28,Small Business,Device Protection,Web,Successful,132.74,None,Argentina,Within SLA
+PAY-00345,2026-06-10,Individual,Home Protection,Call Center,Failed,38.43,Duplicate Payment,Argentina,Breached SLA
+PAY-00346,2026-04-20,Enterprise,Premium Direct,Mobile App,Successful,593.09,None,Chile,Within SLA
+PAY-00347,2026-01-24,Enterprise,Extended Warranty,Web,Successful,231.57,None,Mexico,Within SLA
+PAY-00348,2026-06-10,Enterprise,Device Protection,Web,Successful,602.04,None,Argentina,Within SLA
+PAY-00349,2026-02-24,Enterprise,Home Protection,Web,Successful,134.48,None,Argentina,Within SLA
+PAY-00350,2026-03-29,Individual,Home Protection,Web,Failed,597.58,Duplicate Payment,Argentina,Within SLA
+PAY-00351,2026-01-27,Individual,Extended Warranty,Web,Successful,751.82,None,United States,Within SLA
+PAY-00352,2026-05-25,Enterprise,Extended Warranty,Mobile App,Successful,561.27,None,Mexico,Within SLA
+PAY-00353,2026-06-07,Individual,Extended Warranty,Web,Successful,734.47,None,United States,Within SLA
+PAY-00354,2026-04-09,Individual,Premium Direct,Web,Successful,379.25,None,Brazil,Within SLA
+PAY-00355,2026-05-22,Enterprise,Device Protection,Partner Portal,Successful,619.97,None,Brazil,Within SLA
+PAY-00356,2026-05-13,Enterprise,Device Protection,Mobile App,Successful,180.63,None,Mexico,Within SLA
+PAY-00357,2026-04-09,Enterprise,Device Protection,Partner Portal,Successful,437.16,None,Chile,Within SLA
+PAY-00358,2026-02-03,Enterprise,Extended Warranty,Call Center,Successful,717.15,None,Argentina,Within SLA
+PAY-00359,2026-01-05,Individual,Home Protection,Batch Import,Successful,36.38,None,Chile,Within SLA
+PAY-00360,2026-06-10,Small Business,Device Protection,Batch Import,Successful,657.87,None,United States,Within SLA
+PAY-00361,2026-06-07,Individual,Extended Warranty,Batch Import,Successful,93.97,None,Chile,Within SLA
+PAY-00362,2026-04-11,Enterprise,Device Protection,Partner Portal,Successful,654.66,None,Mexico,Within SLA
+PAY-00363,2026-03-03,Small Business,Device Protection,Partner Portal,Successful,96.13,None,Brazil,Within SLA
+PAY-00364,2026-01-31,Small Business,Premium Direct,Batch Import,Successful,138.2,None,United States,Within SLA
+PAY-00365,2026-03-08,Small Business,Device Protection,Web,Successful,129.72,None,Chile,Within SLA
+PAY-00366,2026-04-20,Enterprise,Device Protection,Call Center,Successful,77.69,None,Mexico,Within SLA
+PAY-00367,2026-05-11,Small Business,Extended Warranty,Partner Portal,Successful,437.18,None,Argentina,Within SLA
+PAY-00368,2026-05-27,Individual,Device Protection,Web,Successful,120.15,None,Brazil,Within SLA
+PAY-00369,2026-01-12,Individual,Home Protection,Mobile App,Successful,340.96,None,Chile,Within SLA
+PAY-00370,2026-03-05,Individual,Premium Direct,Web,Successful,619.24,None,United States,Within SLA
+PAY-00371,2026-01-14,Small Business,Device Protection,Call Center,Successful,688.58,None,Chile,Breached SLA
+PAY-00372,2026-03-21,Individual,Premium Direct,Batch Import,Successful,481.3,None,Chile,Within SLA
+PAY-00373,2026-06-09,Individual,Extended Warranty,Mobile App,Successful,328.83,None,Argentina,Breached SLA
+PAY-00374,2026-04-15,Enterprise,Device Protection,Partner Portal,Successful,471.77,None,Argentina,Within SLA
+PAY-00375,2026-04-07,Individual,Home Protection,Call Center,Failed,278.7,System Error,Argentina,Within SLA
+PAY-00376,2026-02-06,Enterprise,Home Protection,Partner Portal,Successful,101.75,None,Mexico,Breached SLA
+PAY-00377,2026-01-22,Small Business,Device Protection,Batch Import,Successful,441.98,None,United States,Within SLA
+PAY-00378,2026-01-16,Small Business,Premium Direct,Call Center,Successful,820.48,None,Chile,Within SLA
+PAY-00379,2026-03-23,Individual,Device Protection,Mobile App,Successful,217.73,None,Argentina,Breached SLA
+PAY-00380,2026-02-12,Small Business,Extended Warranty,Call Center,Successful,284.08,None,Chile,Within SLA
+PAY-00381,2026-04-29,Enterprise,Premium Direct,Batch Import,Successful,123.93,None,Argentina,Within SLA
+PAY-00382,2026-02-25,Small Business,Home Protection,Batch Import,Failed,147.37,Invalid Data,Argentina,Within SLA
+PAY-00383,2026-03-18,Small Business,Home Protection,Batch Import,Successful,842.31,None,United States,Within SLA
+PAY-00384,2026-03-05,Individual,Device Protection,Web,Successful,109.07,None,Brazil,Within SLA
+PAY-00385,2026-02-03,Enterprise,Device Protection,Batch Import,Successful,355.48,None,United States,Within SLA
+PAY-00386,2026-03-08,Enterprise,Home Protection,Mobile App,Pending,42.99,Card Declined,Argentina,Within SLA
+PAY-00387,2026-03-26,Enterprise,Home Protection,Call Center,Successful,802.38,None,Mexico,Within SLA
+PAY-00388,2026-01-08,Individual,Premium Direct,Partner Portal,Successful,377.0,None,Mexico,Within SLA
+PAY-00389,2026-02-08,Small Business,Home Protection,Call Center,Successful,535.82,None,United States,Within SLA
+PAY-00390,2026-05-03,Individual,Extended Warranty,Batch Import,Successful,255.82,None,Argentina,Within SLA
+PAY-00391,2026-04-08,Small Business,Premium Direct,Call Center,Failed,420.74,Invalid Data,Chile,Within SLA
+PAY-00392,2026-02-16,Small Business,Device Protection,Call Center,Successful,517.62,None,United States,Within SLA
+PAY-00393,2026-04-02,Individual,Extended Warranty,Mobile App,Successful,849.67,None,Chile,Breached SLA
+PAY-00394,2026-05-17,Individual,Home Protection,Partner Portal,Failed,71.12,System Error,Brazil,Breached SLA
+PAY-00395,2026-02-15,Small Business,Device Protection,Partner Portal,Successful,287.35,None,United States,Within SLA
+PAY-00396,2026-05-25,Small Business,Premium Direct,Mobile App,Successful,807.4,None,Mexico,Within SLA
+PAY-00397,2026-01-10,Enterprise,Home Protection,Web,Successful,216.91,None,Chile,Within SLA
+PAY-00398,2026-06-07,Small Business,Device Protection,Web,Successful,132.65,None,Brazil,Within SLA
+PAY-00399,2026-05-31,Enterprise,Premium Direct,Web,Successful,141.86,None,Chile,Within SLA
+PAY-00400,2026-04-12,Individual,Home Protection,Call Center,Successful,302.66,None,Chile,Within SLA
+PAY-00401,2026-02-14,Enterprise,Premium Direct,Mobile App,Successful,488.63,None,United States,Breached SLA
+PAY-00402,2026-02-14,Individual,Device Protection,Batch Import,Successful,630.55,None,Mexico,Within SLA
+PAY-00403,2026-05-26,Enterprise,Extended Warranty,Batch Import,Successful,521.97,None,Argentina,Breached SLA
+PAY-00404,2026-05-08,Small Business,Extended Warranty,Web,Successful,639.91,None,Chile,Within SLA
+PAY-00405,2026-04-25,Small Business,Premium Direct,Web,Successful,197.99,None,Argentina,Within SLA
+PAY-00406,2026-01-13,Small Business,Home Protection,Call Center,Successful,629.38,None,Chile,Breached SLA
+PAY-00407,2026-05-20,Enterprise,Extended Warranty,Mobile App,Successful,708.77,None,Mexico,Within SLA
+PAY-00408,2026-01-19,Individual,Device Protection,Partner Portal,Failed,268.3,Card Declined,Brazil,Within SLA
+PAY-00409,2026-04-07,Individual,Premium Direct,Batch Import,Successful,86.88,None,United States,Breached SLA
+PAY-00410,2026-05-04,Enterprise,Home Protection,Mobile App,Successful,380.84,None,Argentina,Within SLA
+PAY-00411,2026-01-26,Enterprise,Premium Direct,Partner Portal,Successful,828.88,None,Chile,Within SLA
+PAY-00412,2026-03-02,Small Business,Extended Warranty,Web,Successful,349.14,None,Chile,Within SLA
+PAY-00413,2026-01-01,Enterprise,Home Protection,Mobile App,Successful,268.0,None,Argentina,Within SLA
+PAY-00414,2026-01-07,Small Business,Device Protection,Partner Portal,Successful,551.51,None,Mexico,Breached SLA
+PAY-00415,2026-05-01,Enterprise,Home Protection,Mobile App,Successful,570.36,None,Chile,Within SLA
+PAY-00416,2026-04-08,Small Business,Premium Direct,Mobile App,Successful,392.76,None,Chile,Within SLA
+PAY-00417,2026-05-25,Individual,Premium Direct,Batch Import,Successful,645.59,None,Mexico,Within SLA
+PAY-00418,2026-05-31,Enterprise,Home Protection,Batch Import,Successful,75.31,None,Mexico,Within SLA
+PAY-00419,2026-05-27,Enterprise,Device Protection,Batch Import,Failed,271.55,Duplicate Payment,United States,Within SLA
+PAY-00420,2026-05-13,Small Business,Extended Warranty,Mobile App,Failed,835.77,System Error,Brazil,Within SLA
+PAY-00421,2026-02-19,Small Business,Extended Warranty,Mobile App,Successful,374.28,None,United States,Breached SLA
+PAY-00422,2026-03-08,Individual,Home Protection,Batch Import,Successful,624.86,None,Mexico,Within SLA
+PAY-00423,2026-05-22,Individual,Home Protection,Web,Successful,252.87,None,Mexico,Within SLA
+PAY-00424,2026-02-08,Individual,Device Protection,Batch Import,Successful,510.05,None,Argentina,Within SLA
+PAY-00425,2026-03-15,Enterprise,Home Protection,Batch Import,Failed,749.26,Invalid Data,United States,Within SLA
+PAY-00426,2026-05-02,Enterprise,Home Protection,Web,Successful,252.22,None,Mexico,Within SLA
+PAY-00427,2026-03-26,Small Business,Premium Direct,Web,Successful,65.67,None,Chile,Within SLA
+PAY-00428,2026-03-19,Enterprise,Device Protection,Mobile App,Successful,720.35,None,Brazil,Within SLA
+PAY-00429,2026-03-18,Enterprise,Device Protection,Mobile App,Refunded,-289.72,Duplicate Payment,Mexico,Within SLA
+PAY-00430,2026-02-24,Small Business,Device Protection,Batch Import,Pending,636.28,Duplicate Payment,Brazil,Within SLA
+PAY-00431,2026-01-17,Enterprise,Device Protection,Mobile App,Successful,443.11,None,Brazil,Within SLA
+PAY-00432,2026-02-21,Small Business,Extended Warranty,Partner Portal,Failed,52.28,Gateway Timeout,Chile,Within SLA
+PAY-00433,2026-04-29,Individual,Extended Warranty,Partner Portal,Successful,549.21,None,Mexico,Within SLA
+PAY-00434,2026-06-02,Enterprise,Premium Direct,Partner Portal,Successful,817.43,None,Brazil,Within SLA
+PAY-00435,2026-03-08,Small Business,Device Protection,Mobile App,Successful,593.3,None,United States,Within SLA
+PAY-00436,2026-02-24,Enterprise,Home Protection,Batch Import,Failed,210.72,System Error,Argentina,Within SLA
+PAY-00437,2026-01-03,Individual,Extended Warranty,Partner Portal,Successful,134.16,None,United States,Within SLA
+PAY-00438,2026-03-20,Small Business,Premium Direct,Call Center,Successful,610.23,None,Chile,Within SLA
+PAY-00439,2026-02-25,Small Business,Device Protection,Web,Successful,583.69,None,United States,Within SLA
+PAY-00440,2026-04-06,Enterprise,Device Protection,Call Center,Successful,514.86,None,Argentina,Within SLA
+PAY-00441,2026-03-28,Enterprise,Premium Direct,Mobile App,Refunded,-253.43,System Error,Brazil,Within SLA
+PAY-00442,2026-05-13,Enterprise,Home Protection,Partner Portal,Successful,767.24,None,Brazil,Within SLA
+PAY-00443,2026-01-07,Small Business,Home Protection,Call Center,Successful,847.91,None,Argentina,Within SLA
+PAY-00444,2026-05-30,Enterprise,Extended Warranty,Batch Import,Successful,496.94,None,Mexico,Within SLA
+PAY-00445,2026-04-02,Enterprise,Extended Warranty,Partner Portal,Successful,722.47,None,Argentina,Within SLA
+PAY-00446,2026-05-01,Individual,Premium Direct,Web,Successful,238.39,None,Brazil,Within SLA
+PAY-00447,2026-04-01,Small Business,Premium Direct,Partner Portal,Successful,743.93,None,United States,Within SLA
+PAY-00448,2026-03-17,Enterprise,Device Protection,Call Center,Successful,122.17,None,Brazil,Within SLA
+PAY-00449,2026-05-09,Small Business,Device Protection,Mobile App,Successful,586.58,None,Brazil,Within SLA
+PAY-00450,2026-02-21,Small Business,Extended Warranty,Partner Portal,Successful,839.43,None,Brazil,Breached SLA
+PAY-00451,2026-01-21,Enterprise,Device Protection,Web,Successful,545.6,None,Mexico,Within SLA
+PAY-00452,2026-03-12,Individual,Home Protection,Web,Successful,663.17,None,Brazil,Within SLA
+PAY-00453,2026-06-07,Small Business,Home Protection,Web,Successful,379.26,None,Argentina,Within SLA
+PAY-00454,2026-05-17,Small Business,Extended Warranty,Web,Successful,332.81,None,Argentina,Within SLA
+PAY-00455,2026-06-10,Small Business,Extended Warranty,Web,Successful,211.67,None,Mexico,Within SLA
+PAY-00456,2026-05-09,Small Business,Premium Direct,Call Center,Successful,162.79,None,United States,Within SLA
+PAY-00457,2026-06-02,Individual,Premium Direct,Call Center,Successful,382.77,None,Chile,Within SLA
+PAY-00458,2026-02-18,Individual,Extended Warranty,Mobile App,Successful,773.19,None,Brazil,Within SLA
+PAY-00459,2026-02-24,Small Business,Device Protection,Call Center,Successful,511.5,None,Chile,Within SLA
+PAY-00460,2026-05-17,Individual,Device Protection,Web,Successful,514.99,None,Argentina,Within SLA
+PAY-00461,2026-04-17,Enterprise,Extended Warranty,Mobile App,Successful,126.97,None,Argentina,Within SLA
+PAY-00462,2026-03-19,Enterprise,Extended Warranty,Call Center,Successful,108.31,None,Argentina,Within SLA
+PAY-00463,2026-05-11,Individual,Home Protection,Mobile App,Successful,122.13,None,United States,Within SLA
+PAY-00464,2026-02-21,Small Business,Home Protection,Partner Portal,Successful,710.99,None,Brazil,Breached SLA
+PAY-00465,2026-01-11,Small Business,Premium Direct,Mobile App,Successful,776.04,None,Argentina,Within SLA
+PAY-00466,2026-01-04,Enterprise,Home Protection,Mobile App,Successful,773.18,None,Argentina,Within SLA
+PAY-00467,2026-05-11,Enterprise,Extended Warranty,Call Center,Successful,621.95,None,Chile,Breached SLA
+PAY-00468,2026-03-09,Individual,Premium Direct,Partner Portal,Successful,107.34,None,Chile,Within SLA
+PAY-00469,2026-04-20,Individual,Device Protection,Mobile App,Successful,103.37,None,Brazil,Within SLA
+PAY-00470,2026-03-26,Enterprise,Device Protection,Partner Portal,Successful,386.11,None,Chile,Within SLA
+PAY-00471,2026-02-16,Small Business,Home Protection,Call Center,Successful,355.21,None,Brazil,Within SLA
+PAY-00472,2026-01-29,Individual,Device Protection,Call Center,Successful,624.29,None,United States,Breached SLA
+PAY-00473,2026-05-04,Small Business,Device Protection,Mobile App,Failed,386.48,System Error,Mexico,Within SLA
+PAY-00474,2026-05-05,Small Business,Premium Direct,Web,Successful,364.31,None,United States,Within SLA
+PAY-00475,2026-05-28,Small Business,Device Protection,Call Center,Successful,209.79,None,Brazil,Breached SLA
+PAY-00476,2026-05-04,Enterprise,Device Protection,Web,Successful,582.94,None,Brazil,Within SLA
+PAY-00477,2026-05-10,Small Business,Premium Direct,Mobile App,Failed,742.27,Duplicate Payment,Chile,Within SLA
+PAY-00478,2026-03-13,Small Business,Extended Warranty,Web,Successful,208.73,None,Mexico,Within SLA
+PAY-00479,2026-04-24,Small Business,Device Protection,Call Center,Failed,97.62,Duplicate Payment,Argentina,Within SLA
+PAY-00480,2026-01-27,Individual,Premium Direct,Batch Import,Successful,54.56,None,United States,Within SLA
+PAY-00481,2026-02-22,Individual,Extended Warranty,Call Center,Successful,401.37,None,Chile,Within SLA
+PAY-00482,2026-05-24,Small Business,Home Protection,Web,Successful,519.96,None,Argentina,Within SLA
+PAY-00483,2026-02-26,Small Business,Premium Direct,Web,Successful,317.99,None,Argentina,Within SLA
+PAY-00484,2026-02-12,Small Business,Device Protection,Partner Portal,Successful,703.02,None,United States,Within SLA
+PAY-00485,2026-02-20,Small Business,Extended Warranty,Partner Portal,Successful,792.43,None,Argentina,Within SLA
+PAY-00486,2026-04-17,Individual,Home Protection,Call Center,Successful,547.42,None,United States,Within SLA
+PAY-00487,2026-05-10,Individual,Home Protection,Batch Import,Successful,436.53,None,Mexico,Within SLA
+PAY-00488,2026-05-11,Individual,Device Protection,Call Center,Failed,595.75,Gateway Timeout,United States,Within SLA
+PAY-00489,2026-06-05,Enterprise,Extended Warranty,Partner Portal,Failed,752.15,Insufficient Funds,Mexico,Within SLA
+PAY-00490,2026-03-29,Enterprise,Premium Direct,Batch Import,Refunded,-139.0,Duplicate Payment,Chile,Within SLA
+PAY-00491,2026-05-22,Small Business,Premium Direct,Mobile App,Successful,190.73,None,Brazil,Within SLA
+PAY-00492,2026-05-09,Small Business,Home Protection,Batch Import,Successful,550.42,None,United States,Within SLA
+PAY-00493,2026-04-17,Small Business,Device Protection,Batch Import,Successful,762.44,None,Argentina,Within SLA
+PAY-00494,2026-01-07,Small Business,Extended Warranty,Partner Portal,Successful,68.78,None,Chile,Within SLA
+PAY-00495,2026-02-07,Enterprise,Device Protection,Partner Portal,Failed,672.09,System Error,Mexico,Within SLA
+PAY-00496,2026-01-27,Individual,Home Protection,Mobile App,Successful,582.31,None,United States,Within SLA
+PAY-00497,2026-03-15,Small Business,Premium Direct,Batch Import,Successful,63.76,None,Argentina,Within SLA
+PAY-00498,2026-01-04,Small Business,Extended Warranty,Partner Portal,Successful,192.55,None,United States,Within SLA
+PAY-00499,2026-05-20,Individual,Premium Direct,Call Center,Successful,187.09,None,Brazil,Within SLA
+PAY-00500,2026-01-20,Small Business,Device Protection,Call Center,Successful,168.38,None,Chile,Within SLA
+PAY-00501,2026-05-23,Individual,Premium Direct,Call Center,Successful,157.77,None,Brazil,Within SLA
+PAY-00502,2026-01-11,Enterprise,Premium Direct,Call Center,Successful,291.17,None,United States,Within SLA
+PAY-00503,2026-05-21,Individual,Extended Warranty,Batch Import,Successful,671.83,None,Argentina,Within SLA
+PAY-00504,2026-05-10,Small Business,Extended Warranty,Mobile App,Successful,473.04,None,Chile,Within SLA
+PAY-00505,2026-03-26,Enterprise,Home Protection,Batch Import,Successful,205.22,None,Argentina,Within SLA
+PAY-00506,2026-01-30,Enterprise,Extended Warranty,Web,Successful,392.68,None,Chile,Breached SLA
+PAY-00507,2026-04-08,Small Business,Device Protection,Batch Import,Pending,343.35,Card Declined,Chile,Within SLA
+PAY-00508,2026-05-12,Enterprise,Extended Warranty,Partner Portal,Failed,426.61,Duplicate Payment,United States,Within SLA
+PAY-00509,2026-01-22,Enterprise,Device Protection,Web,Pending,826.59,Gateway Timeout,Brazil,Within SLA
+PAY-00510,2026-02-24,Enterprise,Home Protection,Web,Failed,714.42,Duplicate Payment,Brazil,Within SLA
+PAY-00511,2026-01-07,Individual,Extended Warranty,Partner Portal,Successful,298.67,None,United States,Within SLA
+PAY-00512,2026-01-19,Small Business,Home Protection,Call Center,Successful,212.81,None,Mexico,Within SLA
+PAY-00513,2026-03-22,Enterprise,Device Protection,Batch Import,Successful,580.47,None,Argentina,Within SLA
+PAY-00514,2026-01-19,Enterprise,Premium Direct,Batch Import,Successful,439.84,None,Argentina,Within SLA
+PAY-00515,2026-03-14,Enterprise,Device Protection,Call Center,Successful,386.08,None,Brazil,Within SLA
+PAY-00516,2026-05-17,Enterprise,Premium Direct,Mobile App,Successful,641.07,None,Chile,Within SLA
+PAY-00517,2026-04-06,Individual,Device Protection,Web,Pending,481.66,Card Declined,United States,Within SLA
+PAY-00518,2026-06-02,Individual,Premium Direct,Mobile App,Successful,476.71,None,Mexico,Within SLA
+PAY-00519,2026-05-12,Small Business,Extended Warranty,Web,Successful,176.79,None,Brazil,Within SLA
+PAY-00520,2026-05-26,Small Business,Device Protection,Partner Portal,Failed,405.54,Insufficient Funds,Argentina,Within SLA
+PAY-00521,2026-02-20,Individual,Extended Warranty,Web,Successful,426.93,None,Chile,Within SLA
+PAY-00522,2026-06-08,Small Business,Premium Direct,Batch Import,Successful,184.64,None,Brazil,Within SLA
+PAY-00523,2026-05-25,Individual,Device Protection,Partner Portal,Successful,691.35,None,Brazil,Breached SLA
+PAY-00524,2026-02-26,Small Business,Extended Warranty,Partner Portal,Successful,553.69,None,Mexico,Within SLA
+PAY-00525,2026-04-29,Individual,Extended Warranty,Batch Import,Successful,664.18,None,Argentina,Within SLA
+PAY-00526,2026-03-13,Enterprise,Device Protection,Web,Failed,760.32,Gateway Timeout,Argentina,Within SLA
+PAY-00527,2026-05-10,Enterprise,Extended Warranty,Web,Successful,695.43,None,United States,Within SLA
+PAY-00528,2026-03-08,Individual,Premium Direct,Call Center,Successful,848.95,None,Brazil,Within SLA
+PAY-00529,2026-05-31,Enterprise,Device Protection,Call Center,Successful,265.07,None,Chile,Within SLA
+PAY-00530,2026-05-09,Enterprise,Extended Warranty,Batch Import,Successful,222.08,None,Brazil,Breached SLA
+PAY-00531,2026-04-25,Individual,Home Protection,Partner Portal,Successful,492.24,None,Argentina,Within SLA
+PAY-00532,2026-02-26,Individual,Device Protection,Mobile App,Successful,216.19,None,United States,Within SLA
+PAY-00533,2026-04-03,Individual,Premium Direct,Web,Successful,782.27,None,United States,Breached SLA
+PAY-00534,2026-03-12,Small Business,Home Protection,Partner Portal,Failed,502.37,Invalid Data,United States,Within SLA
+PAY-00535,2026-01-20,Enterprise,Home Protection,Partner Portal,Successful,335.47,None,Chile,Breached SLA
+PAY-00536,2026-05-05,Small Business,Extended Warranty,Mobile App,Failed,30.44,Insufficient Funds,Argentina,Breached SLA
+PAY-00537,2026-05-12,Small Business,Device Protection,Mobile App,Successful,199.5,None,Mexico,Within SLA
+PAY-00538,2026-03-26,Individual,Extended Warranty,Call Center,Successful,422.25,None,Argentina,Within SLA
+PAY-00539,2026-03-04,Enterprise,Device Protection,Batch Import,Successful,498.13,None,Brazil,Within SLA
+PAY-00540,2026-01-15,Small Business,Device Protection,Partner Portal,Successful,786.02,None,Argentina,Within SLA
+PAY-00541,2026-02-25,Individual,Extended Warranty,Call Center,Successful,844.04,None,United States,Within SLA
+PAY-00542,2026-02-06,Individual,Premium Direct,Call Center,Failed,539.15,Gateway Timeout,United States,Within SLA
+PAY-00543,2026-06-01,Individual,Extended Warranty,Batch Import,Successful,337.02,None,United States,Within SLA
+PAY-00544,2026-04-18,Enterprise,Device Protection,Batch Import,Failed,104.45,Insufficient Funds,United States,Within SLA
+PAY-00545,2026-01-31,Enterprise,Device Protection,Call Center,Successful,569.0,None,United States,Breached SLA
+PAY-00546,2026-04-18,Individual,Home Protection,Call Center,Successful,60.84,None,Chile,Within SLA
+PAY-00547,2026-05-31,Small Business,Home Protection,Mobile App,Failed,500.3,System Error,Argentina,Within SLA
+PAY-00548,2026-03-14,Individual,Device Protection,Batch Import,Successful,473.58,None,United States,Within SLA
+PAY-00549,2026-01-31,Small Business,Home Protection,Partner Portal,Successful,334.4,None,Argentina,Within SLA
+PAY-00550,2026-02-09,Enterprise,Home Protection,Batch Import,Successful,507.93,None,Chile,Within SLA
+PAY-00551,2026-06-06,Small Business,Home Protection,Mobile App,Successful,586.5,None,Chile,Within SLA
+PAY-00552,2026-05-24,Small Business,Home Protection,Mobile App,Successful,234.37,None,Argentina,Within SLA
+PAY-00553,2026-02-28,Individual,Home Protection,Partner Portal,Successful,601.93,None,United States,Within SLA
+PAY-00554,2026-06-07,Enterprise,Device Protection,Web,Successful,608.1,None,Brazil,Within SLA
+PAY-00555,2026-05-01,Small Business,Device Protection,Batch Import,Pending,97.72,Duplicate Payment,Argentina,Within SLA
+PAY-00556,2026-04-09,Enterprise,Device Protection,Mobile App,Pending,531.52,Duplicate Payment,Mexico,Within SLA
+PAY-00557,2026-04-23,Enterprise,Premium Direct,Mobile App,Successful,726.72,None,Argentina,Breached SLA
+PAY-00558,2026-06-03,Enterprise,Device Protection,Partner Portal,Successful,601.22,None,Brazil,Within SLA
+PAY-00559,2026-01-01,Small Business,Home Protection,Batch Import,Refunded,-668.23,Card Declined,Brazil,Within SLA
+PAY-00560,2026-05-13,Enterprise,Premium Direct,Batch Import,Successful,605.49,None,United States,Breached SLA
+PAY-00561,2026-03-31,Individual,Home Protection,Call Center,Successful,697.8,None,United States,Within SLA
+PAY-00562,2026-01-02,Individual,Premium Direct,Partner Portal,Successful,360.89,None,Argentina,Within SLA
+PAY-00563,2026-05-12,Enterprise,Home Protection,Call Center,Pending,695.85,Insufficient Funds,United States,Within SLA
+PAY-00564,2026-05-04,Small Business,Home Protection,Batch Import,Successful,649.92,None,Argentina,Breached SLA
+PAY-00565,2026-05-04,Individual,Extended Warranty,Partner Portal,Successful,80.73,None,Mexico,Within SLA
+PAY-00566,2026-04-01,Individual,Premium Direct,Web,Successful,33.02,None,Mexico,Within SLA
+PAY-00567,2026-03-29,Small Business,Extended Warranty,Batch Import,Successful,793.4,None,Chile,Within SLA
+PAY-00568,2026-02-16,Enterprise,Extended Warranty,Mobile App,Pending,792.46,System Error,Brazil,Within SLA
+PAY-00569,2026-03-09,Enterprise,Premium Direct,Mobile App,Successful,192.28,None,Argentina,Within SLA
+PAY-00570,2026-01-31,Individual,Device Protection,Call Center,Pending,813.52,System Error,Chile,Within SLA
+PAY-00571,2026-06-08,Enterprise,Premium Direct,Call Center,Successful,765.95,None,Brazil,Breached SLA
+PAY-00572,2026-05-11,Individual,Home Protection,Call Center,Successful,208.23,None,United States,Within SLA
+PAY-00573,2026-01-09,Individual,Home Protection,Web,Successful,349.82,None,United States,Within SLA
+PAY-00574,2026-04-28,Small Business,Device Protection,Partner Portal,Successful,31.95,None,Chile,Within SLA
+PAY-00575,2026-06-06,Small Business,Premium Direct,Partner Portal,Failed,477.56,Gateway Timeout,Brazil,Within SLA
+PAY-00576,2026-05-08,Small Business,Home Protection,Partner Portal,Successful,370.75,None,Mexico,Within SLA
+PAY-00577,2026-02-16,Individual,Premium Direct,Mobile App,Successful,832.9,None,United States,Within SLA
+PAY-00578,2026-04-21,Individual,Home Protection,Web,Failed,145.32,Gateway Timeout,Brazil,Breached SLA
+PAY-00579,2026-04-18,Enterprise,Premium Direct,Call Center,Successful,846.34,None,Chile,Within SLA
+PAY-00580,2026-03-06,Enterprise,Extended Warranty,Web,Successful,493.46,None,Brazil,Within SLA
+PAY-00581,2026-03-07,Small Business,Premium Direct,Partner Portal,Successful,544.64,None,Chile,Within SLA
+PAY-00582,2026-05-24,Small Business,Device Protection,Partner Portal,Successful,693.26,None,United States,Within SLA
+PAY-00583,2026-02-20,Small Business,Premium Direct,Partner Portal,Successful,561.14,None,United States,Within SLA
+PAY-00584,2026-05-05,Enterprise,Premium Direct,Call Center,Successful,393.72,None,Brazil,Within SLA
+PAY-00585,2026-02-12,Enterprise,Home Protection,Web,Successful,791.07,None,Argentina,Within SLA
+PAY-00586,2026-02-11,Enterprise,Premium Direct,Batch Import,Successful,283.62,None,Mexico,Within SLA
+PAY-00587,2026-03-11,Small Business,Home Protection,Mobile App,Failed,642.01,Invalid Data,Brazil,Within SLA
+PAY-00588,2026-01-06,Enterprise,Device Protection,Mobile App,Successful,218.57,None,Brazil,Within SLA
+PAY-00589,2026-04-12,Enterprise,Device Protection,Web,Successful,77.63,None,Mexico,Within SLA
+PAY-00590,2026-05-15,Individual,Device Protection,Call Center,Successful,93.68,None,Chile,Within SLA
+PAY-00591,2026-02-28,Individual,Extended Warranty,Web,Successful,259.44,None,Argentina,Within SLA
+PAY-00592,2026-04-02,Enterprise,Premium Direct,Batch Import,Failed,738.0,Invalid Data,Mexico,Within SLA
+PAY-00593,2026-02-04,Enterprise,Home Protection,Batch Import,Refunded,-512.44,System Error,United States,Within SLA
+PAY-00594,2026-03-21,Small Business,Premium Direct,Partner Portal,Pending,470.23,Duplicate Payment,Mexico,Within SLA
+PAY-00595,2026-03-08,Individual,Premium Direct,Partner Portal,Successful,33.71,None,Mexico,Within SLA
+PAY-00596,2026-05-17,Small Business,Premium Direct,Web,Successful,785.72,None,Mexico,Breached SLA
+PAY-00597,2026-03-16,Individual,Home Protection,Batch Import,Successful,682.33,None,Mexico,Within SLA
+PAY-00598,2026-04-12,Small Business,Extended Warranty,Partner Portal,Successful,614.82,None,Argentina,Within SLA
+PAY-00599,2026-04-19,Enterprise,Premium Direct,Partner Portal,Successful,451.2,None,United States,Within SLA
+PAY-00600,2026-03-10,Small Business,Device Protection,Call Center,Successful,729.12,None,United States,Within SLA
+PAY-00601,2026-04-26,Individual,Extended Warranty,Web,Successful,538.77,None,United States,Within SLA
+PAY-00602,2026-01-06,Enterprise,Home Protection,Web,Successful,109.38,None,Brazil,Within SLA
+PAY-00603,2026-01-24,Small Business,Home Protection,Partner Portal,Successful,432.2,None,Mexico,Within SLA
+PAY-00604,2026-01-09,Individual,Premium Direct,Call Center,Successful,720.93,None,Argentina,Breached SLA
+PAY-00605,2026-05-20,Small Business,Device Protection,Web,Successful,183.56,None,Brazil,Within SLA
+PAY-00606,2026-04-09,Individual,Extended Warranty,Call Center,Successful,390.44,None,Argentina,Within SLA
+PAY-00607,2026-05-14,Small Business,Premium Direct,Mobile App,Successful,196.97,None,Argentina,Within SLA
+PAY-00608,2026-05-21,Individual,Premium Direct,Web,Successful,233.98,None,Brazil,Within SLA
+PAY-00609,2026-01-29,Small Business,Device Protection,Call Center,Successful,383.18,None,Brazil,Within SLA
+PAY-00610,2026-01-03,Small Business,Device Protection,Mobile App,Refunded,-417.1,Insufficient Funds,Brazil,Within SLA
+PAY-00611,2026-05-08,Enterprise,Device Protection,Web,Successful,535.38,None,Chile,Breached SLA
+PAY-00612,2026-02-09,Individual,Premium Direct,Batch Import,Successful,677.96,None,Chile,Within SLA
+PAY-00613,2026-04-23,Enterprise,Extended Warranty,Partner Portal,Successful,42.62,None,Argentina,Within SLA
+PAY-00614,2026-05-05,Small Business,Extended Warranty,Batch Import,Successful,486.2,None,Brazil,Within SLA
+PAY-00615,2026-05-20,Enterprise,Extended Warranty,Web,Successful,629.23,None,United States,Within SLA
+PAY-00616,2026-02-09,Small Business,Device Protection,Batch Import,Successful,701.02,None,Mexico,Within SLA
+PAY-00617,2026-02-17,Individual,Premium Direct,Web,Failed,731.88,Insufficient Funds,United States,Within SLA
+PAY-00618,2026-04-10,Individual,Premium Direct,Partner Portal,Successful,588.66,None,Mexico,Within SLA
+PAY-00619,2026-03-24,Individual,Extended Warranty,Web,Successful,456.64,None,Brazil,Within SLA
+PAY-00620,2026-01-28,Small Business,Home Protection,Batch Import,Successful,106.47,None,United States,Within SLA
+PAY-00621,2026-06-01,Individual,Device Protection,Mobile App,Successful,327.24,None,Mexico,Within SLA
+PAY-00622,2026-01-21,Enterprise,Home Protection,Partner Portal,Successful,552.11,None,Argentina,Within SLA
+PAY-00623,2026-06-07,Small Business,Device Protection,Mobile App,Successful,58.54,None,United States,Within SLA
+PAY-00624,2026-01-25,Individual,Extended Warranty,Batch Import,Successful,215.59,None,Brazil,Within SLA
+PAY-00625,2026-05-23,Enterprise,Premium Direct,Call Center,Successful,367.53,None,Mexico,Within SLA
+PAY-00626,2026-01-27,Small Business,Extended Warranty,Batch Import,Successful,173.83,None,United States,Within SLA
+PAY-00627,2026-04-24,Small Business,Home Protection,Call Center,Pending,478.82,Invalid Data,Chile,Breached SLA
+PAY-00628,2026-06-05,Enterprise,Premium Direct,Partner Portal,Successful,475.14,None,Mexico,Within SLA
+PAY-00629,2026-04-25,Enterprise,Device Protection,Batch Import,Pending,624.21,Card Declined,Brazil,Breached SLA
+PAY-00630,2026-03-19,Small Business,Device Protection,Partner Portal,Successful,837.13,None,United States,Within SLA
+PAY-00631,2026-05-11,Individual,Home Protection,Partner Portal,Successful,788.89,None,Brazil,Within SLA
+PAY-00632,2026-02-05,Small Business,Premium Direct,Web,Successful,758.94,None,United States,Within SLA
+PAY-00633,2026-04-13,Small Business,Home Protection,Mobile App,Successful,204.39,None,Mexico,Within SLA
+PAY-00634,2026-05-28,Enterprise,Home Protection,Web,Failed,516.07,Card Declined,Argentina,Within SLA
+PAY-00635,2026-03-27,Individual,Extended Warranty,Batch Import,Successful,699.14,None,Argentina,Within SLA
+PAY-00636,2026-04-08,Enterprise,Extended Warranty,Partner Portal,Successful,457.62,None,United States,Within SLA
+PAY-00637,2026-02-26,Small Business,Device Protection,Mobile App,Successful,580.75,None,Mexico,Breached SLA
+PAY-00638,2026-03-16,Enterprise,Device Protection,Batch Import,Failed,134.06,Gateway Timeout,Mexico,Within SLA
+PAY-00639,2026-03-09,Individual,Extended Warranty,Call Center,Successful,439.0,None,United States,Within SLA
+PAY-00640,2026-02-20,Enterprise,Extended Warranty,Mobile App,Successful,563.1,None,Argentina,Within SLA
+PAY-00641,2026-03-10,Individual,Device Protection,Call Center,Successful,291.81,None,Mexico,Breached SLA
+PAY-00642,2026-04-04,Individual,Premium Direct,Mobile App,Successful,289.61,None,Chile,Within SLA
+PAY-00643,2026-06-07,Individual,Extended Warranty,Partner Portal,Failed,539.13,Duplicate Payment,Brazil,Within SLA
+PAY-00644,2026-01-22,Individual,Premium Direct,Web,Successful,69.99,None,Chile,Breached SLA
+PAY-00645,2026-01-29,Enterprise,Extended Warranty,Mobile App,Successful,413.73,None,United States,Within SLA
+PAY-00646,2026-05-14,Individual,Device Protection,Call Center,Successful,477.76,None,United States,Within SLA
+PAY-00647,2026-05-15,Enterprise,Premium Direct,Web,Successful,165.51,None,Mexico,Within SLA
+PAY-00648,2026-01-03,Enterprise,Premium Direct,Web,Successful,569.81,None,Argentina,Within SLA
+PAY-00649,2026-03-16,Enterprise,Device Protection,Partner Portal,Failed,343.88,System Error,Mexico,Breached SLA
+PAY-00650,2026-06-02,Small Business,Device Protection,Web,Successful,178.79,None,Brazil,Within SLA
+PAY-00651,2026-05-16,Individual,Premium Direct,Partner Portal,Successful,429.19,None,Chile,Within SLA
+PAY-00652,2026-06-10,Small Business,Device Protection,Partner Portal,Successful,846.7,None,Mexico,Breached SLA
+PAY-00653,2026-01-08,Small Business,Extended Warranty,Web,Pending,211.11,Invalid Data,Mexico,Within SLA
+PAY-00654,2026-05-14,Enterprise,Extended Warranty,Call Center,Refunded,-591.38,Insufficient Funds,Chile,Within SLA
+PAY-00655,2026-06-04,Individual,Extended Warranty,Mobile App,Successful,472.34,None,Chile,Within SLA
+PAY-00656,2026-05-15,Individual,Extended Warranty,Partner Portal,Pending,846.44,Duplicate Payment,Argentina,Breached SLA
+PAY-00657,2026-05-23,Individual,Device Protection,Partner Portal,Successful,618.54,None,Mexico,Within SLA
+PAY-00658,2026-04-16,Enterprise,Premium Direct,Mobile App,Successful,640.13,None,Brazil,Within SLA
+PAY-00659,2026-01-28,Enterprise,Premium Direct,Batch Import,Successful,46.61,None,United States,Breached SLA
+PAY-00660,2026-06-06,Small Business,Device Protection,Call Center,Successful,216.55,None,Brazil,Within SLA
+PAY-00661,2026-05-09,Small Business,Home Protection,Call Center,Failed,612.42,Duplicate Payment,Brazil,Within SLA
+PAY-00662,2026-02-11,Individual,Premium Direct,Call Center,Successful,51.59,None,Brazil,Within SLA
+PAY-00663,2026-02-21,Small Business,Home Protection,Partner Portal,Successful,79.56,None,Mexico,Breached SLA
+PAY-00664,2026-03-05,Small Business,Premium Direct,Call Center,Successful,665.38,None,United States,Within SLA
+PAY-00665,2026-05-27,Individual,Device Protection,Call Center,Successful,458.32,None,Mexico,Within SLA
+PAY-00666,2026-01-11,Enterprise,Device Protection,Batch Import,Failed,452.93,Gateway Timeout,Mexico,Within SLA
+PAY-00667,2026-05-13,Small Business,Home Protection,Partner Portal,Successful,819.14,None,Chile,Within SLA
+PAY-00668,2026-04-29,Enterprise,Extended Warranty,Call Center,Successful,267.9,None,Mexico,Breached SLA
+PAY-00669,2026-01-24,Enterprise,Extended Warranty,Call Center,Successful,118.37,None,Mexico,Within SLA
+PAY-00670,2026-03-24,Enterprise,Extended Warranty,Call Center,Successful,172.57,None,Argentina,Within SLA
+PAY-00671,2026-03-06,Individual,Device Protection,Web,Successful,560.08,None,Argentina,Within SLA
+PAY-00672,2026-04-26,Enterprise,Extended Warranty,Call Center,Successful,95.38,None,United States,Within SLA
+PAY-00673,2026-04-08,Enterprise,Extended Warranty,Mobile App,Successful,165.98,None,Brazil,Within SLA
+PAY-00674,2026-02-15,Enterprise,Home Protection,Partner Portal,Successful,67.33,None,Brazil,Within SLA
+PAY-00675,2026-01-31,Individual,Home Protection,Call Center,Failed,27.91,Gateway Timeout,Mexico,Within SLA
+PAY-00676,2026-05-20,Enterprise,Home Protection,Call Center,Failed,753.23,Insufficient Funds,Mexico,Within SLA
+PAY-00677,2026-04-24,Enterprise,Premium Direct,Batch Import,Successful,520.08,None,United States,Within SLA
+PAY-00678,2026-02-23,Individual,Extended Warranty,Web,Successful,147.31,None,United States,Within SLA
+PAY-00679,2026-06-04,Small Business,Extended Warranty,Mobile App,Successful,784.32,None,Chile,Within SLA
+PAY-00680,2026-06-06,Enterprise,Extended Warranty,Call Center,Successful,602.37,None,United States,Within SLA
+PAY-00681,2026-04-03,Small Business,Device Protection,Call Center,Pending,659.02,Card Declined,United States,Within SLA
+PAY-00682,2026-01-17,Small Business,Premium Direct,Batch Import,Successful,136.0,None,Mexico,Within SLA
+PAY-00683,2026-05-15,Enterprise,Device Protection,Call Center,Successful,197.47,None,United States,Within SLA
+PAY-00684,2026-03-15,Enterprise,Premium Direct,Mobile App,Successful,724.43,None,United States,Within SLA
+PAY-00685,2026-05-25,Individual,Extended Warranty,Partner Portal,Successful,626.58,None,Brazil,Within SLA
+PAY-00686,2026-01-01,Enterprise,Extended Warranty,Batch Import,Successful,408.53,None,Mexico,Within SLA
+PAY-00687,2026-04-16,Individual,Device Protection,Mobile App,Successful,313.46,None,Chile,Within SLA
+PAY-00688,2026-03-07,Individual,Device Protection,Partner Portal,Failed,272.73,Invalid Data,Chile,Within SLA
+PAY-00689,2026-04-12,Individual,Extended Warranty,Partner Portal,Successful,533.19,None,Chile,Within SLA
+PAY-00690,2026-05-03,Enterprise,Home Protection,Batch Import,Pending,557.66,Card Declined,Chile,Within SLA
+PAY-00691,2026-04-29,Enterprise,Premium Direct,Batch Import,Failed,790.43,Duplicate Payment,Chile,Within SLA
+PAY-00692,2026-05-23,Small Business,Device Protection,Mobile App,Successful,196.82,None,Chile,Within SLA
+PAY-00693,2026-01-08,Individual,Home Protection,Mobile App,Successful,334.57,None,United States,Within SLA
+PAY-00694,2026-01-30,Individual,Premium Direct,Call Center,Failed,606.84,Invalid Data,Argentina,Within SLA
+PAY-00695,2026-05-08,Individual,Premium Direct,Mobile App,Failed,397.82,Invalid Data,Argentina,Breached SLA
+PAY-00696,2026-04-06,Individual,Home Protection,Batch Import,Failed,778.52,Gateway Timeout,Brazil,Within SLA
+PAY-00697,2026-02-18,Small Business,Premium Direct,Mobile App,Successful,423.86,None,Argentina,Within SLA
+PAY-00698,2026-05-13,Small Business,Home Protection,Batch Import,Successful,134.49,None,Argentina,Within SLA
+PAY-00699,2026-01-02,Individual,Premium Direct,Call Center,Successful,61.32,None,Argentina,Within SLA
+PAY-00700,2026-01-27,Enterprise,Premium Direct,Mobile App,Successful,568.66,None,Chile,Within SLA
+PAY-00701,2026-02-21,Small Business,Device Protection,Partner Portal,Successful,253.24,None,Brazil,Within SLA
+PAY-00702,2026-02-10,Enterprise,Device Protection,Mobile App,Successful,37.59,None,United States,Within SLA
+PAY-00703,2026-03-31,Small Business,Extended Warranty,Mobile App,Successful,248.62,None,Argentina,Breached SLA
+PAY-00704,2026-03-21,Individual,Device Protection,Call Center,Successful,304.46,None,Argentina,Within SLA
+PAY-00705,2026-01-28,Enterprise,Home Protection,Batch Import,Successful,96.05,None,Chile,Within SLA
+PAY-00706,2026-03-21,Enterprise,Device Protection,Call Center,Successful,188.47,None,United States,Within SLA
+PAY-00707,2026-02-03,Individual,Home Protection,Partner Portal,Successful,686.94,None,Mexico,Within SLA
+PAY-00708,2026-05-01,Enterprise,Premium Direct,Partner Portal,Successful,209.63,None,Mexico,Within SLA
+PAY-00709,2026-02-16,Small Business,Home Protection,Call Center,Successful,573.77,None,Argentina,Within SLA
+PAY-00710,2026-01-17,Individual,Premium Direct,Partner Portal,Successful,314.94,None,United States,Within SLA
+PAY-00711,2026-05-28,Individual,Premium Direct,Batch Import,Successful,109.92,None,Argentina,Within SLA
+PAY-00712,2026-03-19,Enterprise,Extended Warranty,Batch Import,Successful,355.67,None,Brazil,Within SLA
+PAY-00713,2026-05-04,Enterprise,Home Protection,Call Center,Successful,306.09,None,United States,Within SLA
+PAY-00714,2026-03-29,Individual,Home Protection,Web,Successful,219.83,None,United States,Within SLA
+PAY-00715,2026-06-02,Individual,Premium Direct,Call Center,Successful,482.95,None,Argentina,Within SLA
+PAY-00716,2026-06-03,Small Business,Premium Direct,Call Center,Successful,696.61,None,Argentina,Within SLA
+PAY-00717,2026-01-24,Enterprise,Device Protection,Mobile App,Successful,139.61,None,Brazil,Within SLA
+PAY-00718,2026-04-26,Individual,Extended Warranty,Partner Portal,Successful,346.74,None,Chile,Within SLA
+PAY-00719,2026-05-26,Small Business,Premium Direct,Web,Failed,276.25,System Error,United States,Breached SLA
+PAY-00720,2026-01-03,Small Business,Device Protection,Partner Portal,Successful,446.1,None,United States,Within SLA
+PAY-00721,2026-01-14,Individual,Premium Direct,Web,Successful,487.02,None,Brazil,Breached SLA
+PAY-00722,2026-04-21,Small Business,Home Protection,Call Center,Successful,350.27,None,Mexico,Within SLA
+PAY-00723,2026-05-20,Enterprise,Home Protection,Partner Portal,Successful,168.06,None,Mexico,Within SLA
+PAY-00724,2026-02-09,Individual,Device Protection,Web,Successful,745.01,None,Brazil,Within SLA
+PAY-00725,2026-05-05,Individual,Home Protection,Call Center,Successful,829.35,None,United States,Within SLA
+PAY-00726,2026-04-19,Small Business,Home Protection,Partner Portal,Successful,399.88,None,Brazil,Within SLA
+PAY-00727,2026-02-17,Enterprise,Extended Warranty,Batch Import,Successful,31.13,None,Chile,Within SLA
+PAY-00728,2026-04-16,Enterprise,Home Protection,Partner Portal,Pending,327.75,Insufficient Funds,Argentina,Breached SLA
+PAY-00729,2026-05-29,Enterprise,Premium Direct,Call Center,Successful,594.66,None,United States,Within SLA
+PAY-00730,2026-01-21,Enterprise,Device Protection,Batch Import,Successful,528.31,None,United States,Within SLA
+PAY-00731,2026-03-21,Individual,Home Protection,Call Center,Successful,770.46,None,United States,Within SLA
+PAY-00732,2026-05-01,Small Business,Premium Direct,Mobile App,Successful,298.5,None,Argentina,Within SLA
+PAY-00733,2026-06-02,Individual,Home Protection,Batch Import,Successful,624.75,None,Brazil,Within SLA
+PAY-00734,2026-05-27,Enterprise,Device Protection,Partner Portal,Successful,842.05,None,Mexico,Within SLA
+PAY-00735,2026-01-22,Small Business,Extended Warranty,Batch Import,Successful,88.41,None,Chile,Within SLA
+PAY-00736,2026-03-12,Enterprise,Extended Warranty,Call Center,Failed,636.68,Card Declined,Chile,Within SLA
+PAY-00737,2026-02-14,Enterprise,Device Protection,Partner Portal,Successful,603.14,None,Argentina,Within SLA
+PAY-00738,2026-02-07,Small Business,Home Protection,Mobile App,Successful,702.92,None,Mexico,Within SLA
+PAY-00739,2026-02-12,Enterprise,Premium Direct,Web,Successful,630.85,None,Argentina,Within SLA
+PAY-00740,2026-02-12,Enterprise,Extended Warranty,Call Center,Successful,417.89,None,Mexico,Within SLA
+PAY-00741,2026-05-02,Small Business,Home Protection,Call Center,Successful,462.61,None,Chile,Within SLA
+PAY-00742,2026-05-16,Enterprise,Premium Direct,Call Center,Successful,58.84,None,United States,Breached SLA
+PAY-00743,2026-03-11,Enterprise,Home Protection,Call Center,Successful,245.35,None,Brazil,Within SLA
+PAY-00744,2026-05-31,Individual,Premium Direct,Batch Import,Successful,453.96,None,Argentina,Within SLA
+PAY-00745,2026-01-03,Enterprise,Home Protection,Partner Portal,Failed,364.28,Card Declined,Brazil,Within SLA
+PAY-00746,2026-03-14,Individual,Extended Warranty,Batch Import,Successful,53.08,None,Argentina,Within SLA
+PAY-00747,2026-01-31,Enterprise,Extended Warranty,Web,Successful,523.87,None,Brazil,Within SLA
+PAY-00748,2026-03-06,Small Business,Premium Direct,Call Center,Successful,569.89,None,Chile,Within SLA
+PAY-00749,2026-03-07,Small Business,Home Protection,Partner Portal,Successful,86.05,None,Argentina,Within SLA
+PAY-00750,2026-03-08,Individual,Home Protection,Mobile App,Pending,171.79,Invalid Data,Mexico,Within SLA
