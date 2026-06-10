@@ -23,11 +23,4 @@ Even if the `.pbix` file is not available, this repository includes the main pro
 * dashboard screenshots: `screenshots/`
 * project documentation: `README.md` and `docs/`
 
-## PBIX Export Note
-
-The `.pbix` file may not be included if export from Power BI Service is unavailable due to workspace, permission, or service limitations.
-
-If exported successfully, the suggested file name is:
-
-`payments-kpi-dashboard.pbix`
 
