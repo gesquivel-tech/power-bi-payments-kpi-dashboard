@@ -200,11 +200,21 @@ screenshots/status-filter-example.png
 screenshots/region-filter-example.png
 ```
 
-Preview:
+## Dashboard Screenshots
+
+### Executive Overview
 
 ![Dashboard Overview](screenshots/dashboard-overview.png)
 
+### Data Quality / Operations View
+
 ![Data Quality Operations View](screenshots/data-quality-operations-view.png)
+
+### Interactive Examples
+
+![Status Failed Filter Example](screenshots/status-failed-filter-example.png)
+
+![Region Argentina Filter Example](screenshots/region-argentina-filter-example.png)
 
 ## Business Value
 
