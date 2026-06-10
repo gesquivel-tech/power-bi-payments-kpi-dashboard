@@ -15,7 +15,7 @@ The dashboard was authored in Power BI Service using the synthetic payments data
 
 ## Included Repository Assets
 
-Even if the `.pbix` file is not available, this repository includes the main project assets:
+This repository includes the main project assets:
 
 * source dataset: `data/sample_payments.csv`
 * DAX measures: `dax/measures.md`
