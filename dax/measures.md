@@ -1,8 +1,8 @@
 # DAX Measures
 
-Suggested DAX measures for the Power BI Payments KPI Dashboard.
+Implemented DAX measures for the Power BI Payments KPI Dashboard.
 
-These measures are designed to respond correctly to filters, slicers, and visual interactions.
+These measures were used to build KPI cards, interactive visuals, filter-aware calculations, error analysis, SLA monitoring, and SQL validation checks.
 
 ## Core measures
 
