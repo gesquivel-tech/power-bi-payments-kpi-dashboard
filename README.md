@@ -1,4 +1,5 @@
 # Power BI Payments KPI Dashboard
+![Pipeline](architecture.png)
 
 This repository contains a Power BI reporting project focused on payment performance, failed transactions, error trends, SLA monitoring, DAX measures, SQL validation logic, and business-friendly dashboard design.
 
