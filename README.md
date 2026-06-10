@@ -257,6 +257,7 @@ The report is designed for both technical and non-technical stakeholders. It com
 power-bi-payments-kpi-dashboard/
 │
 ├── README.md
+├── architecture.png
 ├── data/
 │   └── sample_payments.csv
 ├── dax/
