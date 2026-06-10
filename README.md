@@ -1,12 +1,12 @@
 # Power BI Payments KPI Dashboard
 
-This repository contains a Power BI reporting project focused on payment performance, failed transactions, error trends, SLA monitoring, DAX measures, and SQL validation logic.
+This repository contains a Power BI reporting project focused on payment performance, failed transactions, error trends, SLA monitoring, DAX measures, SQL validation logic, and business-friendly dashboard design.
 
 The project uses a fully synthetic payments dataset to simulate a realistic business reporting scenario for a Business Intelligence, Reporting, Operations, or Business Systems Analyst role.
 
 ## Objective
 
-The objective of this project is to transform raw payment transaction data into a business-friendly Power BI dashboard that helps technical and non-technical users monitor payment performance and operational exceptions.
+The objective of this project is to transform raw payment transaction data into a Power BI dashboard that helps technical and non-technical users monitor payment performance and operational exceptions.
 
 The report focuses on:
 
@@ -20,11 +20,12 @@ The report focuses on:
 * SLA status and SLA breaches
 * regional and product-level operational issues
 
-The dashboard is designed to support quick decision-making, similar to how an operations team would monitor production output, rejects, delays, and process deviations.
+The dashboard is designed to support quick decision-making, similar to how an operations team would monitor production output, rejects, delays, process deviations, and quality issues.
 
 ## Tools Used
 
 * Power BI Service
+* Power BI report export (`.pbix`)
 * DAX
 * Data modeling
 * SQL validation logic
@@ -58,7 +59,7 @@ The report is built around a single fact table:
 
 * `Payments`
 
-The main dashboard uses the `PaymentDate` field and its date hierarchy to analyze monthly payment trends.
+The dashboard uses the `PaymentDate` field and its date hierarchy to analyze monthly payment trends.
 
 A calendar table can be added for more advanced time intelligence analysis:
 
@@ -70,15 +71,25 @@ CALENDAR(
 )
 ```
 
-Relationship:
+Possible relationship:
 
 ```text
 Calendar[Date] -> Payments[PaymentDate]
 ```
 
-## Dashboard Pages
+For this portfolio version, the report uses the `Payments` table directly and focuses on KPI behavior, filter interaction, visual analysis, and validation logic.
 
-The Power BI report is organized into two main pages:
+## Power BI Report
+
+The exported Power BI report file is included in:
+
+```text
+powerbi/payments-kpi-dashboard.pbix
+```
+
+The report was authored in Power BI Service and exported as a `.pbix` file.
+
+Report pages:
 
 1. `Executive Overview`
 2. `Data Quality / Operations View`
@@ -253,8 +264,7 @@ power-bi-payments-kpi-dashboard/
 ├── sql/
 │   └── validation_queries.sql
 ├── docs/
-│   ├── data_dictionary.md
-│   └── interview_pitch.md
+│   └── data_dictionary.md
 ├── screenshots/
 │   ├── README.md
 │   ├── dashboard-overview.png
@@ -262,14 +272,9 @@ power-bi-payments-kpi-dashboard/
 │   ├── status-failed-filter-example.png
 │   └── region-argentina-filter-example.png
 └── powerbi/
-    └── README.md
+    ├── README.md
+    └── payments-kpi-dashboard.pbix
 ```
-
-## Power BI File Note
-
-This report was authored in Power BI Service.
-
-Depending on Power BI Service permissions and export availability, the `.pbix` file may not be included. The repository still contains the source dataset, DAX measures, SQL validation queries, documentation, and dashboard screenshots.
 
 ## Project Summary
 
@@ -278,7 +283,7 @@ This project demonstrates how raw operational data can be transformed into relia
 It shows the complete reporting workflow:
 
 ```text
-Synthetic dataset -> Power BI model -> DAX KPIs -> Interactive dashboard -> SQL validation -> GitHub documentation
+Synthetic dataset -> Power BI model -> DAX KPIs -> Interactive dashboard -> SQL validation -> GitHub documentation -> PBIX export
 ```
 
 The dashboard is designed for both technical and non-technical stakeholders, with a focus on payment performance, failed transactions, operational exceptions, SLA issues, and error analysis.
